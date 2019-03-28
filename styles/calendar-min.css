@@ -1,1 +1,1 @@
-#calendar-container{z-index:5;position:absolute;left:1em}
+#calendar-container{z-index:5;position:absolute;left:1em;padding:.2em;border:1px solid black;border-radius:10px;background:white}
