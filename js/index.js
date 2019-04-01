@@ -105,7 +105,7 @@ events.addOnLoad( () => {
     const corners = ( Math.ceil( center[ 0 ] / 2 ) < Math.ceil( center[ 1 ] / 2 ) ?
         Math.ceil( center[ 0 ] / 2 ) : Math.ceil( center[ 1 ] / 2 ) );
 
-    const cPoints = MF.getCirlePoints( corners );
+    const cPoints = MF.getCirclePoints( corners );
     let startPoint = 0;
 
     const resultPoints = cPoints.sort( ( a, b ) => {
