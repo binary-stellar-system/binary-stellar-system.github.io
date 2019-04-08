@@ -78,6 +78,7 @@ footer ul li {
     grid-column: 3 / span 1;
     grid-row: 1 / span 3;
     margin-left: 0.5em;
+    text-align: left;
 }
 
 #main-window {
