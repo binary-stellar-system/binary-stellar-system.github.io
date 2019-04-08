@@ -74,11 +74,24 @@ footer ul li {
     text-transform: capitalize
 }
 
+#welcome-content {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 3;
+    margin-left: 0.5em;
+}
+
+#main-window {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+}
+
 #menu {
-    grid-area: left;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
     margin: 0;
     width: 8em;
     padding: 0.5em;
+    position: fixed;
 }
 
 #menu select {
@@ -89,27 +102,47 @@ footer ul li {
     background-color: #aff0ff;
 }
 
-#webWindow {
-    grid-area: webWindow;
+.container {
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    grid-template-rows: 10% 40% 50%;
+    grid-gap: 2px;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 1.5em;
+    left: 0;
+    width: 95%;
+    height: 85%;
 }
 
-        .container {
-            display: grid;
-            grid-template-areas: 'left webWindow webWindow webWindow';
-            grid-gap: 2px;
-            background-color: #ffffff;
-            padding: 5px;
-            margin-top: 1.5em;
-            left: 0;
-            width: 95%;
-            height: 85%;
-        }
+@media only screen and (max-width: 600px) {
+    #menu {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 1;
+    }
 
-        .container>nav, .container>div {
-            background-color: #ffffff;
-            text-align: left;
-            overflow: scroll;
-        }
+    #main-window {
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 1;
+        height: 600px;
+    }
+
+    #welcome-content {
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 1;
+    }
+}
+
+.container>nav,
+.container>div {
+    background-color: #ffffff;
+    text-align: left;
+    overflow: scroll;
+}
+
+.container>div {
+    margin: 1em 0em 3em 0em;
+}
 
 #canvas-container {
     z-index: 0;
