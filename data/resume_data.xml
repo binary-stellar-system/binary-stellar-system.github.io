@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resume id="ihavenoidea">
+
+	<objective></objective>
+
+	<skillarea>
+		<title>TECHNICAL SKILLS</title>
+		<skillset>
+			<title>Programming Languages</title>
+			<skill level="10/10">HTML/CSS (scss)</skill>
+			<skill level="10/10">JavaScript (DOM, AJAX, YUI, JQuery, MV*, Jasmine Unit Testing)</skill>
+			<skill level="8/10">XML</skill>
+			<!--<skill level="8/10">XSLT</skill>-->
+			<skill level="8/10">Java [J2EE/JEE] (JSP, Struts Action Servlets, Spring, JSTL, Hibernate)</skill>
+			<skill level="6/10">C</skill>
+			<skill level="7/10">shell scripting (csh, sh, bash)</skill>
+			<skill level="6/10">SQL</skill>
+			<!--<skill level="5/10">Visual Basic / VB.net</skill>
+			<skill level="4/10">Perl</skill>
+			<skill level="6/10">Groovy on Grails</skill> <skill level="3/10">ASP</skill>
+				<skill level="5/10">Tcl/Tk</skill> <skill level="1/10">PowerBuilder</skill> 
+				<skill level="2/10">PHP</skill> -->
+		</skillset>
+		<skillset>
+			<title>Operating Systems</title>
+			<skill level="7/10">Unix(Sun/Solaris, HP-UX, AIX)/Linux/BSD</skill>
+			<skill level="7/10">Mac OS X</skill>
+			<skill level="7/10">Microsoft Windows</skill>
+		</skillset>
+		<skillset>
+			<title>Databases</title>
+			<skill level="4/10">Oracle</skill>
+			<skill level="4/10">Sybase</skill>
+			<skill level="3/10">MySQL</skill>
+			<skill level="2/10">DB2</skill>
+		</skillset>
+		<skillset>
+			<title>Miscellaneous</title>
+			<skill level="5/10">Eclipse</skill>
+			<skill level="5/10">Netbeans</skill>
+			<skill level="5/10">WebStorm</skill>
+			<skill level="5/10">Brackets</skill>
+			<skill level="5/10">Tomcat</skill>
+			<skill level="5/10">Apache</skill>
+			<skill level="5/10">Maven</skill>
+			<skill level="3/10">jetty</skill>
+			<skill level="4/10">Ant</skill>
+			<skill level="5/10">grunt</skill>
+			<skill level="3/10">Gulp</skill>
+			<skill level="5/10">CVS</skill>
+			<skill level="5/10">Subversion(svn)</skill>
+			<skill level="5/10">SourceSafe</skill>
+			<skill level="3/10">GIT</skill>
+			<skill level="5/10">sonar</skill>
+			<skill level="3/10">jira</skill>
+			<skill level="3/10">mingle</skill>
+		</skillset>
+	</skillarea>
+
+	<history>
+        <job>
+			<jobtitle>Senior Architect, UI</jobtitle>
+			<company>Sephora.com</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>November</month>
+						<year>2017</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>
+						</month>
+						<year>Present</year>
+					</date>
+				</to>
+			</period>
+            <achievements>
+				<achievement>Fixed memory leak in node.js render service to stabilize the node.js render service, for uptimes that extended the life of releases</achievement>
+                               <achievement>Improve performance of the node.js render service, using node.js profiling tools, better memoize cache, smaller cache key, and make cache an LRU cache</achievement>
+                               <achievement>Add custom monitoring statistics for node to track performance and metrics without overloading logs</achievement>
+                <achievement>Architect for Product Page 2017 and 2018 Enhancements, Community Enhancements, and Search Enhancements 2018 discoveries</achievement>
+                <achievement>Domain Architect for Online Reservations (OLR), ADA, Loyalty, and SEO for Canada discoveries, and node.js lead for ATG Upgrade</achievement>
+           </achievements>
+        </job>
+		<job>
+			<jobtitle>UI Architect</jobtitle>
+			<company>Macys.com</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>May</month>
+						<year>2010</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>November</month>
+						<year>2016</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Created custom grunt plugins, and used existing grunt
+					plugins to create new JavaScript build system for new Backbone.js,
+					require.js, and jQuery modules</achievement>
+                <achievement>Wrote system architecture design document for responsive checkout,
+                    as well as acted as technical lead and architect for the project</achievement>
+                <achievement>Took training on jquery and node.js</achievement>
+                <achievement>Worked on SEO, security, performance, page weight, and integrating sonar
+					code analysis of the UI JavaScript and JSP code </achievement>
+				<achievement>Gave training classes for maven, JavaScript and the
+					Macy&apos;s minifier, the basics of maven, assisted in the
+					JavaScript unit tests demo using jasmine framework, JavaScript
+					design patterns, Handlebarsjs, browser performance, spiriting,
+					refactoring, and the XSS - Script Injection and SQL Injection
+					training classes </achievement>
+				<achievement>Developed and documented JavaScript, JSP, selenium
+					testing framework, UI Architecture wiki, and HTML coding standards
+					and AJAX best practices</achievement>
+				<achievement>Created designed and implemented for PDP and registry
+					add to bag layers, "quickbag" layer, and shopping bag migration
+					page</achievement>
+				<achievement>Enhanced and documented minifer and verify maven
+					plugins </achievement>
+				<achievement>Implemented a QuickView feature on the web site and
+					image fading</achievement>
+				<achievement>Worked on the Shop &amp; Browse UI team using
+					Java(Spring, JSP, Java), HTML, an CSS fixing defects and
+					implementing international pricing display following agile
+					methodology</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Senior Java Developer / Contractor</jobtitle>
+			<company>Healthline.com</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>December</month>
+						<year>2009</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>May</month>
+						<year>2010</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Used Apache Lucene to work on a search engine
+				</achievement>
+				<achievement>Programmed in HTML, CSS, JavaScript(YUI), Java(Spring,
+					JSP, Java) and Oracle SQL fixing defects and implementing new
+					features for healthline and healthline's clients</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Senior UI Developer / Contractor</jobtitle>
+			<company>MedVantage</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>October</month>
+						<year>2009</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>December</month>
+						<year>2009</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Used CSS, html, and JavaScript(jQuery) to create a web
+					based medical application screens</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Senior Technical Consultant</jobtitle>
+			<company>Blackstone Technology Group</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>November</month>
+						<year>2006</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>May</month>
+						<year>2009</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Worked on the implementation of a web site for Monterey
+					Hotels using the Groovy on Grails framework (Spring, Java, Jetty,
+					Hibernate) and MySQL</achievement>
+				<achievement>Analyzed, designed, wrote use cases, interacted with
+					the client&apos;s Lead Analysts (PG&amp;E), wrote JUnit tests, and
+					maintained screens for the team I was on (over 60 highly complex
+					screens), plus several other teams for the software project
+					rewrite, some being the most complicated and feature-rich screens
+					in the application</achievement>
+				<achievement>Implemented and fixed numerous JavaScript, HTML, and
+					CSS UI features, creating and using Java Tag Files and Yahoo! UI
+					API's, for the web application including: the navigation menu, a
+					tooltip widget, a tab-out component, a multi-selection dropdown,
+					the global smart popup, printing issues, configuring data export
+					from the application, and created the basis for the AJAX
+					implementation that is used all over the CSI application
+				</achievement>
+				<achievement>Worked as a front end and back end Java web developer
+					during the rewrite of the PG&amp;E gas transport system,
+					demonstrating a strong competency and experience in J2EE/JEE, solid
+					time management skills and excellent interpersonal and
+					communication skills, in a fast-paced environment with a tight
+					deadline</achievement>
+				<achievement>Exhibited great communication skills, both verbal and
+					written to explain intricate technical issues and solutions
+					concisely and clearly, to the team lead, the clients, and with
+					regard to the task progress and overall schedule</achievement>
+				<achievement>Efficiently multitasked during the rewrite of the
+					PG&amp;E gas transmission application, obtaining, using and sharing
+					technical and business knowledge to mentor other developers, while
+					always still staying ahead of the project deadlines</achievement>
+				<achievement>Worked concurrently, professionally, as a team player
+					with all the other consultants and trained new front-end developers
+					on the frameworks of the project to ensure that the team
+					consistently employed a unified development standard, and was often
+					referred to as the go-to guy</achievement>
+				<achievement>Contributed to the Architecture Team, and was exposed
+					to the common issues across the different functional teams,
+					resulting in gaining a good understanding of the common business
+					issues at the application level and then proceeded to develop
+					framework-based solutions in addressing those issues including
+					creating several custom tags</achievement>
+				<achievement>Used Enterprise Architect UML modeling and design tool
+					to model screen and page flows in a web application and
+					participated in the class modeling and message trace designs
+				</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Senior Programmer / Analyst - Research and Development
+			</jobtitle>
+			<company>McCue Systems Inc.</company>
+			<url>http://www.mccue.com/</url>
+			<location>
+				<city>Burlingame</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>March</month>
+						<year>2001</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>November</month>
+						<year>2006</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>
+					Designed, documented, implemented, enhanced, and supported the Java
+					web based leasing application and web services, resulting in new
+					clients and more projects with existing clients<!--, using Tomcat and 
+						Apache or J2EE, Java (servlets, JSP, Struts, Axis, WSDL), JavaScript, HTML, 
+						CSS, C, XSLT, and XML (SAX and DOM) -->
+				</achievement>
+				<!-- <achievement>Designed and created custom Java tag libraries for 
+					use in new web based leasing application</achievement> -->
+				<achievement>Modified in-house server side DOM XML parser, written
+					in C, used in the new web based leasing application</achievement>
+				<achievement>Created scripts to build and manage lease application
+					databases and users for the port to Oracle 9i from Sybase,
+					attracting new clients</achievement>
+				<achievement>
+					Ported and benchmarked a leasing server application shell scripts
+					and source code from HP-UX to HP-UX, Sun Solaris, and Redhat Linux<!--, 
+						thus enabling the company to compete against smaller companies with new Linux 
+						and Sun platform offerings -->
+				</achievement>
+				<!--<achievement>Implemented project enhancements, performed cost estimation, 
+					wrote specifications, and fixed defects in C and Visual Basic with Sybase 
+					database</achievement> -->
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Software Engineer</jobtitle>
+			<company>NBC Internet</company>
+			<location>
+				<city>San Francisco</city>
+				<state>CA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>November</month>
+						<year>1999</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>January</month>
+						<year>2001</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Maintained, modified, and created Perl-Sybase report
+					scripts, templates and API for creating new reports to allow quick
+					graphical access to view the performance of the advertisement
+					system</achievement>
+				<achievement>Wrote web based advertising system monitoring tool with
+					performance graphs in Perl, HTML and JavaScript</achievement>
+				<achievement>Modified, created and maintained internal advertisement
+					serving programs using Perl, HTML and JavaScript
+				</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Programmer Analyst</jobtitle>
+			<company>American Management Systems</company>
+			<location>
+				<city>Fairfax</city>
+				<state>VA</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>August</month>
+						<year>1997</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>November</month>
+						<year>1999</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Enhanced and modified a financial application Web Based
+					UI prototype, as well as programmed, debugged and maintained the
+					client-server financial application</achievement>
+				<!-- <achievement>Successfully completed a Java programming class</achievement> -->
+				<!-- <achievement>Programmed, debugged, and maintained a client-server 
+					financial application on Microsoft Windows using C</achievement> -->
+				<!--<achievement>Used AIX Unix C security API's to enhance and modify 
+					the server authentication programs</achievement> -->
+				<achievement>Modified client-server prototype for the Kansas
+					Department of Revenue project</achievement>
+				<!--<achievement>Developed custom reports using MS Access SQL and Access 
+					Visual Basic</achievement> -->
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Patent Examiner</jobtitle>
+			<company>US Patent and Trademark Office</company>
+			<url>http://www.uspto.gov/</url>
+			<location>
+				<city>Washington DC</city>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>August</month>
+						<year>1996</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1997</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Examined and wrote summary of findings on patent
+					applications for input devices, video displays, and display
+					controllers, for the approval or denial of a patent</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>System Analyst</jobtitle>
+			<company>OCI/Statistica</company>
+			<location>
+				<city>Orlando</city>
+				<state>FL</state>
+				<country>USA</country>
+			</location>
+			<period>
+				<from>
+					<date>
+						<month>May</month>
+						<year>1996</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>August</month>
+						<year>1996</year>
+					</date>
+				</to>
+			</period>
+			<achievements>
+				<achievement>Analyzed aircraft electronic schematics to create and
+					write story boards for graphical animation</achievement>
+			</achievements>
+		</job>
+	</history>
+
+	<academics>
+		<degrees>
+			<degree>
+				<level>BS</level>
+				<major>Electrical Engineering</major>
+				<location>
+					<city>Orlando</city>
+					<state>FL</state>
+					<country>USA</country>
+				</location>
+				<date>
+					<month>May</month>
+					<year>1996</year>
+				</date>
+				<institution>University of Central Florida</institution>
+			</degree>
+		</degrees>
+		<note>
+			<para>
+				<!-- Designed a dive computer, with a micro-controller, memory, and an 
+					infrared computer interface. -->
+			</para>
+		</note>
+	</academics>
+
+	<misc>
+		<misc_exp>
+			<name>OTHER ACTIVITIES</name>
+			<item>
+				Author of several open source programs including Tk NotePad, which
+				was recommended by the Linux Journal in March 1999. Also wrote a
+				Java POP3/SMTP web mail application. Git repo here
+				<url>https://github.com/joseph-jja</url>
+			</item>
+			<item>
+				Designed personal web site --
+				<url>http://home.earthlink.net/~joseph-ja</url>
+				-- demonstrating an understanding of HTML, JavaScript, and AJAX
+			</item>
+			<item>Member of the San Francisco Aquarium Society</item>
+		</misc_exp>
+		<misc_exp>
+			<name>MILITARY EXPERIENCE</name>
+			<item>Honorable discharge from United States Army</item>
+		</misc_exp>
+	</misc>
+
+	<validate>
+		<url>http://validator.w3.org/check?uri=referer</url>
+		<image>
+			<source>http://www.w3.org/Icons/valid-xhtml10</source>
+			<alttext>Valid XHTML 1.0!</alttext>
+			<width>88</width>
+			<height>31</height>
+		</image>
+	</validate>
+
+</resume>
