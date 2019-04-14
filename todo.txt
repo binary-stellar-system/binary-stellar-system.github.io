@@ -1,0 +1,11 @@
+Home
+
+Fish
+
+Software
+
+Resume
+
+all will have integrated 
+- metrics of page load
+- single page application
