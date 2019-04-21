@@ -1,1 +1,1 @@
-#calendar-container{z-index:5;position:absolute;left:1em;padding:.2em;border:1px solid black;border-radius:10px;background:white}#calendar-containercontent td,#calendar-containercontentr th{padding:1px;border:1px solid black}
+#calendar-container{z-index:5;position:absolute;left:1em;padding:.2em;border:1px solid #000;border-radius:10px;background:#fff}#calendar-containercontent td,#calendar-containercontentr th{padding:1px;border:1px solid #000}
