@@ -118,13 +118,13 @@
         <br />
         See repo src/client/pages for implemetations and then view source of this page :)
     </p>
-    <p><a target="_blank" href="calendar.html">Calendar Examples</a><br />
+    <p><a target="_blank" href="js/examples/calendar.html">Calendar Examples</a><br />
         <br />
         See example page for implementations and git repo
         <br />
     </p>
 
-    <p><a target="_blank" href="calculator.js">calculator.js</a><br />
+    <p><a target="_blank" href="js/examples/calculator.js">calculator.js</a><br />
         This was my first real javascript page. It is basically a calculator
         that is done using HTML forms and JavaScript. I originally did this
         program in 1996 and it was not till late 1999 that I started modifying
@@ -138,12 +138,12 @@
         <br />My alternate calculator re-write in progress...
 
     </p>
-    <p><a href="digitalclock.js">digitalclock.js</a><br />
+    <p><a target="_blank" href="js/examples/digitalclock.js">digitalclock.js</a><br />
         This is a little digital clock form 'modern' browsers. Currently
         Supported browsers those that support the document.getElementById, the Date object,
         the setTimeout() function, and Object.innerHTML.
         It is a good idea to get the WebBrowser object and use it for browser
-        detection and upon detecing a supported browser then call this code.
+        detection and upon detectioning a supported browser then call this code.
         Currently just download the clock and <br />
         &nbsp;
         <br />
@@ -171,7 +171,7 @@
     </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="PHP"></a><b>PHP</b></p>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">
             ascii_table.php</a><br />
         This is my php script to generate the ascii table. It also generates
         the extended ascii table. For the ascii table this script shows the
@@ -179,20 +179,23 @@
         equivelant
         octal, hexadecimal, and binary values. For the extended ascii table it
         only shows the decimal value, and the equivelant octal, hexadecimal,
-        and binary values. The output can be viewed <a href="table.html">here</a>.</p>
+        and binary values. The output can be viewed <a target="_blank" href="js/examples/table.html">here</a>.</p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="PERL"></a><b>Perl</b></p>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">
             apcupsdconf on github</a><br />
         <b>Unmaintained</b><br />
         This is my web based application to configure Apcupsd. Apcupsd is the
         apc ups daemon. This tool, when used in conjunction with Apcupsd, makes
         it slightly easier to configure the apcupsd.conf file, by informing the
         user when an error may occur in a selected configuration. A few screen
-        shots can be seen <a href="apcupsd.conf_01.jpg">here</a>, <a href="apcupsd.conf_02.jpg"> here</a>, <a href="apcupsd.conf_admin_tool.jpg">here</a>, and <a href="apcupsd.conf_pwd_tool.jpg"> here</a>. </p>
+        shots can be seen <a target="_blank" href="images/screenshots/apcupsd.conf_01.jpg">here</a>,
+        <a target="_blank" href="images/screenshots/apcupsd.conf_02.jpg"> here</a>,
+        <a target="_blank" href="images/screenshots/apcupsd.conf_admin_tool.jpg">here</a>,
+        and <a target="_blank" href="images/screenshots/apcupsd.conf_pwd_tool.jpg"> here</a>. </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="JAVA"></a><b>Java / JSP</b></p>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">jwmailapp on github</a><br />
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">jwmailapp on github</a><br />
         This is a complete refactor of the the original 2001 codebase. The first refactor was in 2006, this has taken
         the 2006 code and refactored it again. The old POP3 class has been refactored into a new POP3Service.
         The old using mail tag files to send mail have been replaced by an SMTPService. Struts and tiles have been
@@ -206,8 +209,8 @@
         The UI works but it is not considered completely polished at this time. It needs a 'design' touch as well
         the ability to send and recieve attachments.
         <br>Pictures can be found
-        <a href="jwmailapp_logon.jpg">here</a>,
-        <a href="jwmailapp_send.jpg">here</a>,
-        <a href="jwmailapp_read.jpg">here</a>,
-        and <a href="jwmailapp_inbox.jpg">here</a>. </p>
+        <a target="_blank" href="images/screenshots/jwmailapp_logon.jpg">here</a>,
+        <a target="_blank" href="images/screenshots/jwmailapp_send.jpg">here</a>,
+        <a target="_blank" href="images/screenshots/jwmailapp_read.jpg">here</a>,
+        and <a target="_blank" href="images/screenshots/jwmailapp_inbox.jpg">here</a>. </p>
 </div>
