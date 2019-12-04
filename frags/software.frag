@@ -25,6 +25,8 @@
             <span class="toplevel collapsed">JavaScript</span>
             <ul id="javascriptpgms" class="tree_child_hidden">
                 <li><a href="#JavaScript">EcmaScripts</a></li>
+                <li><a href="#JavaScript">ASCII Table</a></li>
+                <li><a href="#JavaScript">Color Table</a></li>
                 <li><a href="#JavaScript">Calendar</a></li>
                 <li><a href="#JavaScript">Calculator</a></li>
                 <li><a href="#JavaScript">Digital Clock</a></li>
@@ -117,6 +119,11 @@
         &nbsp;
         <br />
         See repo src/client/pages for implementations and then view source of this page :)
+    </p>
+    <p><a target="_blank" href="/asciiTable.html">ASCII Table</a>
+    </p>
+    <p><a target="_blank" href="/colors.html">Color Table</a>
+    <br>4096 Colors semi sorted
     </p>
     <p><a target="_blank" href="/examples/calendar.html">Calendar Examples</a><br />
         <br />
