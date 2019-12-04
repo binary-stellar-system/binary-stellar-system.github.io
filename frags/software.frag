@@ -56,19 +56,19 @@
         This is a simple editor that requires gtk2.0+. It will not work with
         earlier version of gtk+. It is basically an implementation of my Tk
         Notepad Editor. It is not complete. See the INSTALL, README, TODO, and
-        KNOWNBUGS first. <a target="_blank" href="godura.jpg"> screen shot</a>. NOTE: This is
+        KNOWNBUGS first. <a target="_blank" href="images/screenshots/godura.jpg"> screen shot</a>. NOTE: This is
         pretty STABLE. </p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">GUTime on github</a><br />
         This is a simple uptime applet for the GNOME panel. It was basically
         take from the GNOME Applets example and enhanced. It now installs the
         the .server file. This is the first release for gtk 2.x and GNOME 2.x
-        on x86 Linux machines only. Here is a <a target="_blank" href="GUTime.jpg">screen shot</a>.
+        on x86 Linux machines only. Here is a <a target="_blank" href="images/screenshots/GUTime.jpg">screen shot</a>.
         NOTE: This is considered STABLE. </p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">mpstat on github</a><br />
         <b>Unmaintained</b><br />
         This is a program that I have hacked for Linux specifically. It was
         hacked from the source code to vmstat.c. The mpstat.c file I have
-        written no longer needs procps in order to compile. Here is a <a target="_blank" href="mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
+        written no longer needs procps in order to compile. Here is a <a target="_blank" href="images/screenshots/mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
         STABLE
         as of 2 July, 1999. </p>
 
