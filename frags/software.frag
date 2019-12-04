@@ -133,7 +133,7 @@
         works. It does multiplication, division, addition, subtraction, cosine,
         sine, tangent, inverse (1/x), x^y, arccos, arcsin, arctan and a few
         other functions. I may make some more additions to improve it and make
-        it truly useful on the web. You can try it out <a target="_blank" href="calc.html">
+        it truly useful on the web. You can try it out <a target="_blank" href="examples/calc.html">
             here</a>.<br />
         <br />My alternate calculator re-write in progress...
 
@@ -143,7 +143,7 @@
         Supported browsers those that support the document.getElementById, the Date object,
         the setTimeout() function, and Object.innerHTML.
         It is a good idea to get the WebBrowser object and use it for browser
-        detection and upon detectioning a supported browser then call this code.
+        detection and upon detecting a supported browser then call this code.
         Currently just download the clock and <br />
         &nbsp;
         <br />
@@ -179,7 +179,7 @@
         equivelant
         octal, hexadecimal, and binary values. For the extended ascii table it
         only shows the decimal value, and the equivelant octal, hexadecimal,
-        and binary values. The output can be viewed <a target="_blank" href="js/examples/table.html">here</a>.</p>
+        and binary values. The output can be viewed <a target="_blank" href="examples/table.html">here</a>.</p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="PERL"></a><b>Perl</b></p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">
