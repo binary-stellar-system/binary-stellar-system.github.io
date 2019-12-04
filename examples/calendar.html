@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Calendar Test Show Page</title>
+  <!-- this is for the calendar on this page -->
+  <link rel="stylesheet" href="wb/calendar.css">
+  <!-- // this is the web browser object, includes stuff needed for calendar //-->        
+</head>
+<body>
+
+<div id="detected"></div>
+<p>
+New improved, multi instance!!!!
+</p>
+	
+<p>
+<div style="position:relative;float:left;left:0px;" id="xcal1"></div>
+<div style="position:relative;float:left;left:0px;" id="xcal2"></div>
+<div style="position:relative;float:left;left:0px;" id="xcal3"></div>
+</p>
+<div style="position:relative;float:left;width:90%;">
+<p>
+<form name="main">
+Choose calendar:
+<span style="border:solid 1px blue;padding:5px;">
+<input type="radio" name="wcal" value="xcal1" checked>Calendar 1
+<input type="radio" name="wcal" value="xcal2">Calendar 2
+<input type="radio" name="wcal" value="xcal3">Calendar 3
+</span>
+<br/>
+<br/>
+<input type="button" value="Get Date" id="getDateID">
+<input type="text" size="40" name="newdate"><br>
+<br/>
+<input type="button" value="Set Date" id="setDateID"">
+Month: <input type="text" size="5" name="newmonth">&nbsp;&nbsp;&nbsp;
+Day: <input type="text" size="5" name="newday">&nbsp;&nbsp;&nbsp;
+Year: <input type="text" size="5" name="newyear">&nbsp;&nbsp;&nbsp;
+</form>
+</p>
+
+<script type="text/javascript" src="js/calendarExamples.js"></script>
+</div>
+</body>
+</html>

@@ -118,7 +118,7 @@
         <br />
         See repo src/client/pages for implemetations and then view source of this page :)
     </p>
-    <p><a target="_blank" href="js/examples/calendar.html">Calendar Examples</a><br />
+    <p><a target="_blank" href="examples/calendar.html">Calendar Examples</a><br />
         <br />
         See example page for implementations and git repo
         <br />
