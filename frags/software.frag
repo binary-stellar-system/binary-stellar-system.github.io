@@ -1,21 +1,11 @@
-In my spare time I work on the projects on this page. Some of them,
-I consider to be completed, like TkNotePad.
-These are are all released as "Open Source".
-These programs are provided as is and with no warranty expressed or implied!
-While I have tested them, I am not responsible for
-anything that might happen if you use them.
-They just might not work the way you
-think that they should! <br />
-Please notify me if you intend to include any of this software as a part
-of any distribution or mirror site. Thank you!
-<a href="email_form.html">Email me with any questions or comments.</a>
+<!--a href="email_form.html" >Email me with any questions or comments.< /a-->
 
 <div class="tabledata">
 
     <p><b>NOTE: Unless otherwise specified, these programs are all
             released under the GPL. If not supplied with the software in a License
             file then the GPL can be found here
-            <a href="gpl.html" title="GNU General Public License">gpl.html</a>.
+            <a href="gpl.html" target="_blank" title="GNU General Public License">gpl.html</a>.
         </b></p>
     <ul class="tree_list summary">
         <li id="gtkc"><span class="toplevel collapsed">C</span>
@@ -61,33 +51,33 @@ of any distribution or mirror site. Thank you!
 
     </ul>
     <a name="C-Gtk"></a><b>C</b>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">godura on github</a><br />
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">godura on github</a><br />
 
         This is a simple editor that requires gtk2.0+. It will not work with
         earlier version of gtk+. It is basically an implementation of my Tk
         Notepad Editor. It is not complete. See the INSTALL, README, TODO, and
-        KNOWNBUGS first. <a href="godura.jpg"> screen shot</a>. NOTE: This is
+        KNOWNBUGS first. <a target="_blank" href="godura.jpg"> screen shot</a>. NOTE: This is
         pretty STABLE. </p>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">GUTime on github</a><br />
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">GUTime on github</a><br />
         This is a simple uptime applet for the GNOME panel. It was basically
         take from the GNOME Applets example and enhanced. It now installs the
         the .server file. This is the first release for gtk 2.x and GNOME 2.x
-        on x86 Linux machines only. Here is a <a href="GUTime.jpg">screen shot</a>.
+        on x86 Linux machines only. Here is a <a target="_blank" href="GUTime.jpg">screen shot</a>.
         NOTE: This is considered STABLE. </p>
-    <p><a href="https://github.com/joseph-jja/miscellaneous">mpstat on github</a><br />
+    <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">mpstat on github</a><br />
         <b>Unmaintained</b><br />
         This is a program that I have hacked for Linux specifically. It was
         hacked from the source code to vmstat.c. The mpstat.c file I have
-        written no longer needs procps in order to compile. Here is a <a href="mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
+        written no longer needs procps in order to compile. Here is a <a target="_blank" href="mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
         STABLE
         as of 2 July, 1999. </p>
 
     <hr style="height:2px; width:90%; text-align: center; " />
 
     <p><a name="Tcl-Tk"></a><b>Tcl/Tk</b></p>
-    <p><a href="https://github.com/joseph-jja/tknotepad">
+    <p><a target="_blank" href="https://github.com/joseph-jja/tknotepad">
             Tk Notepad version 0.8.2
-            <img src="tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
+            <img target="_blank" src="tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
         When I first started using Linux I could not find any good text
         editors, other than vi and Emacs. There were other editors, but often I
         could not get them to compile or they did not work the way I expected
@@ -114,11 +104,11 @@ of any distribution or mirror site. Thank you!
         informed that it works on Macintosh also. <br />
         <b>It was written once and runs anywhere, but it's BETTER on
             LINUX!</b><br />
-        Here is a <a href="shottknotpad.jpg">screen shot</a> taken with gimp
+        Here is a <a target="_blank" href="shottknotpad.jpg">screen shot</a> taken with gimp
         for Linux. </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="JavaScript"></a><b>JavaScript</b></p>
-    <p><a href="https://github.com/joseph-jja/EcmaScripts">EcmaScripts</a><br />
+    <p><a target="_blank" href="https://github.com/joseph-jja/EcmaScripts">EcmaScripts</a><br />
         Many iterations and now we have this. Most of the old code is still in use, but migrated slowly over time. From
         objects all declared on the window object, to namespace under WebBrowser and now import/export and es6 syntax.
         <br />
@@ -128,13 +118,13 @@ of any distribution or mirror site. Thank you!
         <br />
         See repo src/client/pages for implemetations and then view source of this page :)
     </p>
-    <p><a href="calendar.html">Calendar Examples</a><br />
+    <p><a target="_blank" href="calendar.html">Calendar Examples</a><br />
         <br />
         See example page for implementations and git repo
         <br />
     </p>
 
-    <p><a href="calculator.js">calculator.js</a><br />
+    <p><a target="_blank" href="calculator.js">calculator.js</a><br />
         This was my first real javascript page. It is basically a calculator
         that is done using HTML forms and JavaScript. I originally did this
         program in 1996 and it was not till late 1999 that I started modifying
@@ -143,27 +133,9 @@ of any distribution or mirror site. Thank you!
         works. It does multiplication, division, addition, subtraction, cosine,
         sine, tangent, inverse (1/x), x^y, arccos, arcsin, arctan and a few
         other functions. I may make some more additions to improve it and make
-        it truly useful on the web. You can try it out <a href="calc.html">
+        it truly useful on the web. You can try it out <a target="_blank" href="calc.html">
             here</a>.<br />
-        <br />My alternate calculator, which is based on the WebBrowser object and so requires WebBrowser.js. This is still a work in progress, but seems to bea cleaner implementation and works better. It can be seen <a href="calc.html">here</a>. You need to include WebBrowser.js.
-        First include the WebBrowser object base functionality:
-        <br />
-        &lt;script type="text/javascript" src="wb/WebBrowser.js"&gt;&lt;/script&gt;
-        <br />
-        <br />
-        &lt;div id="calcID"&gt;&lt;/div&gt;
-        <br />
-        <br />
-        <br />
-        function loadScreen() {
-        <br />
-        &nbsp;&nbsp;var webCalc = new WebBrowser.GUICalculator("calcID"); // pass id of parent object
-        <br />
-        &nbsp;&nbsp;webCalc.render(); // render the calculator
-        <br />
-        }
-        <br />
-        WebBrowser.events.addOnLoad(loadScreen);
+        <br />My alternate calculator re-write in progress...
 
     </p>
     <p><a href="digitalclock.js">digitalclock.js</a><br />
