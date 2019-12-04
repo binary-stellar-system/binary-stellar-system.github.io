@@ -77,7 +77,7 @@
     <p><a name="Tcl-Tk"></a><b>Tcl/Tk</b></p>
     <p><a target="_blank" href="https://github.com/joseph-jja/tknotepad">
             Tk Notepad version 0.8.2
-            <img target="_blank" src="tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
+            <img target="_blank" src="images/screenshots/tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
         When I first started using Linux I could not find any good text
         editors, other than vi and Emacs. There were other editors, but often I
         could not get them to compile or they did not work the way I expected
@@ -104,7 +104,7 @@
         informed that it works on Macintosh also. <br />
         <b>It was written once and runs anywhere, but it's BETTER on
             LINUX!</b><br />
-        Here is a <a target="_blank" href="shottknotpad.jpg">screen shot</a> taken with gimp
+        Here is a <a target="_blank" href="images/screenshots/shottknotpad.jpg">screen shot</a> taken with gimp
         for Linux. </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="JavaScript"></a><b>JavaScript</b></p>
