@@ -56,19 +56,19 @@
         This is a simple editor that requires gtk2.0+. It will not work with
         earlier version of gtk+. It is basically an implementation of my Tk
         Notepad Editor. It is not complete. See the INSTALL, README, TODO, and
-        KNOWNBUGS first. <a target="_blank" href="images/screenshots/godura.jpg"> screen shot</a>. NOTE: This is
+        KNOWNBUGS first. <a target="_blank" href="/images/screenshots/godura.jpg"> screen shot</a>. NOTE: This is
         pretty STABLE. </p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">GUTime on github</a><br />
         This is a simple uptime applet for the GNOME panel. It was basically
         take from the GNOME Applets example and enhanced. It now installs the
         the .server file. This is the first release for gtk 2.x and GNOME 2.x
-        on x86 Linux machines only. Here is a <a target="_blank" href="images/screenshots/GUTime.jpg">screen shot</a>.
+        on x86 Linux machines only. Here is a <a target="_blank" href="/images/screenshots/GUTime.jpg">screen shot</a>.
         NOTE: This is considered STABLE. </p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">mpstat on github</a><br />
         <b>Unmaintained</b><br />
         This is a program that I have hacked for Linux specifically. It was
         hacked from the source code to vmstat.c. The mpstat.c file I have
-        written no longer needs procps in order to compile. Here is a <a target="_blank" href="images/screenshots/mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
+        written no longer needs procps in order to compile. Here is a <a target="_blank" href="/images/screenshots/mpstat.jpg">screen shot</a> . NOTE: this is INCOMPLETE but
         STABLE
         as of 2 July, 1999. </p>
 
@@ -77,7 +77,7 @@
     <p><a name="Tcl-Tk"></a><b>Tcl/Tk</b></p>
     <p><a target="_blank" href="https://github.com/joseph-jja/tknotepad">
             Tk Notepad version 0.8.2
-            <img target="_blank" src="images/screenshots/tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
+            <img target="_blank" src="/images/screenshots/tknotepadicon.jpg" alt="TkNotePad by Joseph Acosta. Click here to download." style="vertical-align:middle;border:none;" height="42" width="84" /></a><br />
         When I first started using Linux I could not find any good text
         editors, other than vi and Emacs. There were other editors, but often I
         could not get them to compile or they did not work the way I expected
@@ -104,7 +104,7 @@
         informed that it works on Macintosh also. <br />
         <b>It was written once and runs anywhere, but it's BETTER on
             LINUX!</b><br />
-        Here is a <a target="_blank" href="images/screenshots/shottknotpad.jpg">screen shot</a> taken with gimp
+        Here is a <a target="_blank" href="/images/screenshots/shottknotpad.jpg">screen shot</a> taken with gimp
         for Linux. </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="JavaScript"></a><b>JavaScript</b></p>
@@ -118,13 +118,13 @@
         <br />
         See repo src/client/pages for implementations and then view source of this page :)
     </p>
-    <p><a target="_blank" href="examples/calendar.html">Calendar Examples</a><br />
+    <p><a target="_blank" href="/examples/calendar.html">Calendar Examples</a><br />
         <br />
         See example page for implementations and git repo
         <br />
     </p>
 
-    <p><a target="_blank" href="js/examples/calculator.js">calculator.js</a><br />
+    <p><a target="_blank" href="/js/examples/calculator.js">calculator.js</a><br />
         This was my first real javascript page. It is basically a calculator
         that is done using HTML forms and JavaScript. I originally did this
         program in 1996 and it was not till late 1999 that I started modifying
@@ -133,12 +133,12 @@
         works. It does multiplication, division, addition, subtraction, cosine,
         sine, tangent, inverse (1/x), x^y, arccos, arcsin, arctan and a few
         other functions. I may make some more additions to improve it and make
-        it truly useful on the web. You can try it out <a target="_blank" href="examples/calc.html">
+        it truly useful on the web. You can try it out <a target="_blank" href="/examples/calc.html">
             here</a>.<br />
         <br />My alternate calculator re-write in progress...
 
     </p>
-    <p><a target="_blank" href="js/examples/digitalclock.js">digitalclock.js</a><br />
+    <p><a target="_blank" href="/js/examples/digitalclock.js">digitalclock.js</a><br />
         This is a little digital clock form 'modern' browsers. Currently
         Supported browsers those that support the document.getElementById, the Date object,
         the setTimeout() function, and Object.innerHTML.
@@ -179,7 +179,7 @@
         equivelant
         octal, hexadecimal, and binary values. For the extended ascii table it
         only shows the decimal value, and the equivelant octal, hexadecimal,
-        and binary values. The output can be viewed <a target="_blank" href="examples/table.html">here</a>.</p>
+        and binary values. The output can be viewed <a target="_blank" href="/examples/table.html">here</a>.</p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="PERL"></a><b>Perl</b></p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">
@@ -189,10 +189,10 @@
         apc ups daemon. This tool, when used in conjunction with Apcupsd, makes
         it slightly easier to configure the apcupsd.conf file, by informing the
         user when an error may occur in a selected configuration. A few screen
-        shots can be seen <a target="_blank" href="images/screenshots/apcupsd.conf_01.jpg">here</a>,
-        <a target="_blank" href="images/screenshots/apcupsd.conf_02.jpg"> here</a>,
-        <a target="_blank" href="images/screenshots/apcupsd.conf_admin_tool.jpg">here</a>,
-        and <a target="_blank" href="images/screenshots/apcupsd.conf_pwd_tool.jpg"> here</a>. </p>
+        shots can be seen <a target="_blank" href="/images/screenshots/apcupsd.conf_01.jpg">here</a>,
+        <a target="_blank" href="/images/screenshots/apcupsd.conf_02.jpg"> here</a>,
+        <a target="_blank" href="/images/screenshots/apcupsd.conf_admin_tool.jpg">here</a>,
+        and <a target="_blank" href="/images/screenshots/apcupsd.conf_pwd_tool.jpg"> here</a>. </p>
     <hr style="height:2px; width:90%; text-align: center; " />
     <p><a name="JAVA"></a><b>Java / JSP</b></p>
     <p><a target="_blank" href="https://github.com/joseph-jja/miscellaneous">jwmailapp on github</a><br />
@@ -209,8 +209,8 @@
         The UI works but it is not considered completely polished at this time. It needs a 'design' touch as well
         the ability to send and recieve attachments.
         <br>Pictures can be found
-        <a target="_blank" href="images/screenshots/jwmailapp_logon.jpg">here</a>,
-        <a target="_blank" href="images/screenshots/jwmailapp_send.jpg">here</a>,
-        <a target="_blank" href="images/screenshots/jwmailapp_read.jpg">here</a>,
-        and <a target="_blank" href="images/screenshots/jwmailapp_inbox.jpg">here</a>. </p>
+        <a target="_blank" href="/images/screenshots/jwmailapp_logon.jpg">here</a>,
+        <a target="_blank" href="/images/screenshots/jwmailapp_send.jpg">here</a>,
+        <a target="_blank" href="/images/screenshots/jwmailapp_read.jpg">here</a>,
+        and <a target="_blank" href="/images/screenshots/jwmailapp_inbox.jpg">here</a>. </p>
 </div>
