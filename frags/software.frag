@@ -112,11 +112,11 @@
         Many iterations and now we have this. Most of the old code is still in use, but migrated slowly over time. From
         objects all declared on the window object, to namespace under WebBrowser and now import/export and es6 syntax.
         <br />
-        Currently Supported browsers are moden browsers and IE11+.
+        Currently Supported browsers are modern browsers and IE11+.
         <br />
         &nbsp;
         <br />
-        See repo src/client/pages for implemetations and then view source of this page :)
+        See repo src/client/pages for implementations and then view source of this page :)
     </p>
     <p><a target="_blank" href="examples/calendar.html">Calendar Examples</a><br />
         <br />
