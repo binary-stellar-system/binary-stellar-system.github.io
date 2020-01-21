@@ -30,6 +30,11 @@
         #xcacl { 
             font-size: 1.3em;
         }
+	form table {
+            border: 1px solid black;
+            borderRadius: 5px;
+            marginBottom: 5px;
+	}
     </style>
 </head>
 
@@ -53,13 +58,6 @@
 
     <div id="xcalc" class="centered"></div>
     <script type="text/javascript" src="/js/examples/calculatorExamples.js"></script>
-    <script type="text/javascript">
-    Array.from(document.querySelectorAll('form table')).forEach(obj => {
-        obj.style.border = '1px solid black';
-        obj.style.borderRadius = '5px'
-        obj.style.marginBottom = '5px'
-    });
-    </script>
 </body>
 
 </html>
