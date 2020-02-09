@@ -1,8 +1,7 @@
 <div class="home-content">
     The odds of hitting this web site are one in a billion!
-    <br> <br>
-    This site was done in HTML 5.0, CSS, and es6 and beyond.Then transpiled via babel into...well you know that old stuff!
-    <br> <br> <br> I once tried to make this site "other"
+    <br><br>This site was done in HTML 5.0, CSS, and es6 and beyond. Then transpiled via babel into stuff that works in the browsers &#128540;
+    <br><br>I once tried to make this site "other"
     browser friendly, but now I have decided that you need a "compliant browser"
     such as:
     <a href="http://www.google.com/chrome" title="Chrome Home Page"> Chrome </a>,
