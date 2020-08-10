@@ -1,4 +1,3 @@
-i
 (function() {
 const mutato = new MutationObserver(badHandler), 
     targets = {
