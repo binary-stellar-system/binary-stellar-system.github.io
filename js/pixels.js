@@ -49,7 +49,7 @@ const mutato = new MutationObserver(badHandler),
             mutato.observe(tgt, opts);
             targets[tgt.id] = {};
         } 
-        if (tgt.type === 'button') {
+        if (tgt.type === 'button' || tgt.type === 'submit') {
 	       save();
         }
     });
