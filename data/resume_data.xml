@@ -8,8 +8,8 @@
 		<skillset>
 			<title>Programming Languages</title>
 			<skill level="10/10">HTML/CSS (scss)</skill>
-			<skill level="10/10">JavaScript (DOM, AJAX, YUI, JQuery, MV*, Jasmine Unit Testing)</skill>
-			<skill level="8/10">XML</skill>
+			<skill level="10/10">JavaScript (es6+, DOM, AJAX, YUI, JQuery, MV*, Jasmine Unit Testing)</skill>
+			<!--skill level="8/10">XML</skill-->
 			<!--<skill level="8/10">XSLT</skill>-->
 			<skill level="8/10">Java [J2EE/JEE] (JSP, Struts Action Servlets, Spring, JSTL, Hibernate)</skill>
 			<skill level="6/10">C</skill>
@@ -29,6 +29,7 @@
 		</skillset>
 		<skillset>
 			<title>Databases</title>
+			<skill level="4/10">REDIS</skill>
 			<skill level="4/10">Oracle</skill>
 			<skill level="4/10">Sybase</skill>
 			<skill level="3/10">MySQL</skill>
@@ -36,6 +37,7 @@
 		</skillset>
 		<skillset>
 			<title>Miscellaneous</title>
+			<skill level="5/10">Akamai</skill>
 			<skill level="5/10">Eclipse</skill>
 			<skill level="5/10">Netbeans</skill>
 			<skill level="5/10">WebStorm</skill>
@@ -82,6 +84,8 @@
 				</to>
 			</period>
             <achievements>
+				<achievement>Implemented express.js + REDIS server to call render server and serve up product pages</achievement>
+				<achievement>Learned how to look at Akamai config and discover things that needed to be fixed and ways to improve caching</achievement>
 				<achievement>Fixed memory leak in node.js render service to stabilize the node.js render service, for uptimes that extended the life of releases</achievement>
                                <achievement>Improve performance of the node.js render service, using node.js profiling tools, better memoize cache, smaller cache key, and make cache an LRU cache</achievement>
                                <achievement>Add custom monitoring statistics for node to track performance and metrics without overloading logs</achievement>
