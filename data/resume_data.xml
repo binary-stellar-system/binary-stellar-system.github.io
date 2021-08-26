@@ -481,16 +481,15 @@
 	<misc>
 		<misc_exp>
 			<name>OTHER ACTIVITIES</name>
-			<item>
+			<!--<item>
 				Author of several open source programs including Tk NotePad, which
 				was recommended by the Linux Journal in March 1999. Also wrote a
 				Java POP3/SMTP web mail application. Git repo here
 				<url>https://github.com/joseph-jja</url>
-			</item>
+			</item>-->
 			<item>
 				Designed personal web site --
 				<url>https://binary-stellar-system.github.io</url>
-				-- demonstrating an understanding of HTML, JavaScript, and AJAX
 			</item>
 			<item>Member of the San Francisco Aquarium Society</item>
 		</misc_exp>
