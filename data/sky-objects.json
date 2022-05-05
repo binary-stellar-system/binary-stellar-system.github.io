@@ -1,0 +1,771 @@
+[{
+    "object": "M1",
+    "bestViewTimes": "winter",
+    "magnitude": 8.4,
+    "names": ["NGC 1952", "Crab Nebula"],
+    "difficultlyLevel": "Moderate",
+    "type": "Supernova remnant"
+}, {
+    "object": "M2",
+    "bestViewTimes": "autumn",
+    "magnitude": 6.5,
+    "names": ["NGC 7089"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M3",
+    "bestViewTimes": "spring",
+    "magnitude": 6.2,
+    "names": ["NGC 5272"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M4",
+    "bestViewTimes": "winter",
+    "magnitude": 5.6,
+    "names": ["NGC 6121", "Spider Globular"],
+    "difficultlyLevel": "Hard",
+    "type": "Globular cluster"
+}, {
+    "object": "M5",
+    "bestViewTimes": "summer",
+    "magnitude": 5.6,
+    "names": ["NGC 5904", "Rose Cluster"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M6",
+    "bestViewTimes": "summer",
+    "magnitude": 4.2,
+    "names": ["NGC 6405", "Butterfly Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M7",
+    "bestViewTimes": "summer",
+    "magnitude": 3.3,
+    "names": ["NGC 6475", "Ptolemy's Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M8",
+    "bestViewTimes": "winter",
+    "magnitude": 6,
+    "names": ["NGC 6523", "Lagoon Nebula"],
+    "difficultlyLevel": "Moderate",
+    "type": "Nebula"
+}, {
+    "object": "M9",
+    "bestViewTimes": "winter",
+    "magnitude": 7.7,
+    "names": ["NGC 6333"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M10",
+    "bestViewTimes": "winter",
+    "magnitude": 6.6,
+    "names": ["NGC 6254"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M11",
+    "bestViewTimes": "summer",
+    "magnitude": 5.8,
+    "names": ["NGC 6705", "Wild Duck Cluster"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M12",
+    "bestViewTimes": "winter",
+    "magnitude": 6.7,
+    "names": ["NGC 6218"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M13",
+    "bestViewTimes": "summer",
+    "magnitude": 5.8,
+    "names": ["NGC 6205", "Great Hercules Cluster"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M14",
+    "bestViewTimes": "winter",
+    "magnitude": 7.6,
+    "names": ["NGC 6402"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M15",
+    "bestViewTimes": "autumn",
+    "magnitude": 6.2,
+    "names": ["NGC 7078", "Great Pegasus Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M16",
+    "bestViewTimes": "summer",
+    "magnitude": 6.4,
+    "names": ["NGC 6611", "Eagle Nebula"],
+    "difficultlyLevel": "Easy",
+    "type": "H II region"
+}, {
+    "object": "M17",
+    "bestViewTimes": "summer",
+    "magnitude": 6,
+    "names": ["NGC 6618", "Omega, Swan, Horseshoe, Lobster, or Checkmark Nebula"],
+    "difficultlyLevel": "Easy",
+    "type": "H II region"
+}, {
+    "object": "M18",
+    "bestViewTimes": "winter",
+    "magnitude": 7.5,
+    "names": ["NGC 6613", "Black Swan Cluster"],
+    "difficultlyLevel": "Moderate",
+    "type": "Open cluster"
+}, {
+    "object": "M19",
+    "bestViewTimes": "winter",
+    "magnitude": 6.8,
+    "names": ["NGC 6273"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M20",
+    "bestViewTimes": "summer",
+    "magnitude": 6.3,
+    "names": ["NGC 6514", "Trifid Nebula"],
+    "difficultlyLevel": "Very Hard",
+    "type": "H II region"
+}, {
+    "object": "M21",
+    "bestViewTimes": "winter",
+    "magnitude": 6.5,
+    "names": ["NGC 6531", "Webb's Cross Cluster"],
+    "difficultlyLevel": "Moderate",
+    "type": "Open cluster"
+}, {
+    "object": "M22",
+    "bestViewTimes": "summer",
+    "magnitude": 5.1,
+    "names": ["NGC 6656", "Great Sagittarius Cluster"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M23",
+    "bestViewTimes": "summer",
+    "magnitude": 5.5,
+    "names": ["NGC 6494"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M24",
+    "bestViewTimes": "summer",
+    "magnitude": 2.5,
+    "names": ["IC 4715", "Small Sagittarius Star Cloud"],
+    "difficultlyLevel": "Moderate",
+    "type": "Milky Way"
+}, {
+    "object": "M25",
+    "bestViewTimes": "summer",
+    "magnitude": 4.6,
+    "names": ["IC 4725"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M26",
+    "bestViewTimes": "winter",
+    "magnitude": 8,
+    "names": ["NGC 6694"],
+    "difficultlyLevel": "Moderate",
+    "type": "Open cluster"
+}, {
+    "object": "M27",
+    "bestViewTimes": "summer",
+    "magnitude": 7.4,
+    "names": ["NGC 6853", "Dumbbell Nebula"],
+    "difficultlyLevel": "Easy",
+    "type": "Planetary nebula"
+}, {
+    "object": "M28",
+    "bestViewTimes": "summer",
+    "magnitude": 6.8,
+    "names": ["NGC 6626"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M29",
+    "bestViewTimes": "summer",
+    "magnitude": 7.1,
+    "names": ["NGC 6913", "Cooling Tower"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M30",
+    "bestViewTimes": "summer",
+    "magnitude": 7.2,
+    "names": ["NGC 7099", "Jellyfish Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M31",
+    "bestViewTimes": "autumn",
+    "magnitude": 3.4,
+    "names": ["NGC 224", "Andromeda Galaxy"],
+    "difficultlyLevel": "Easy",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M32",
+    "bestViewTimes": "autumn",
+    "magnitude": 8.1,
+    "names": ["NGC 221", "Andromeda Satellite #1"],
+    "difficultlyLevel": "Easy",
+    "type": "Dwarf elliptical galaxy"
+}, {
+    "object": "M33",
+    "bestViewTimes": "winter",
+    "magnitude": 5.7,
+    "names": ["NGC 598", "Triangulum/Pinwheel Galaxy"],
+    "difficultlyLevel": "Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M34",
+    "bestViewTimes": "autumn",
+    "magnitude": 5.5,
+    "names": ["NGC 1039", "Spiral Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M35",
+    "bestViewTimes": "winter",
+    "magnitude": 5.3,
+    "names": ["NGC 2168", "Shoe-Buckle Cluster"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M36",
+    "bestViewTimes": "winter",
+    "magnitude": 6.3,
+    "names": ["NGC 1960", "Pinwheel Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M37",
+    "bestViewTimes": "winter",
+    "magnitude": 6.2,
+    "names": ["NGC 2099", "Salt and Pepper Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M38",
+    "bestViewTimes": "winter",
+    "magnitude": 7.4,
+    "names": ["NGC 1912", "Starfish Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M39",
+    "bestViewTimes": "autumn",
+    "magnitude": 4.6,
+    "names": ["NGC 7092"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M40",
+    "bestViewTimes": "spring",
+    "magnitude": 8.4,
+    "names": ["Winnecke-4"],
+    "difficultlyLevel": "Easy",
+    "type": "Star System"
+}, {
+    "object": "M41",
+    "bestViewTimes": "winter",
+    "magnitude": 4.5,
+    "names": ["NGC 2287", "Little Beehive Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M42",
+    "bestViewTimes": "winter",
+    "magnitude": 4,
+    "names": ["NGC 1976", "Great Orion Nebula"],
+    "difficultlyLevel": "Very Easy",
+    "type": "H II region"
+}, {
+    "object": "M43",
+    "bestViewTimes": "winter",
+    "magnitude": 9,
+    "names": ["NGC 1982", "De Mairan's Nebula"],
+    "difficultlyLevel": "Easy",
+    "type": "H II region"
+}, {
+    "object": "M44",
+    "bestViewTimes": "winter",
+    "magnitude": 3.7,
+    "names": ["NGC 2632", "Beehive Cluster or Praesepe"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M45",
+    "bestViewTimes": "winter",
+    "magnitude": 1.6,
+    "names": ["Pleiades, Seven Sisters or Subaru"],
+    "difficultlyLevel": "Very Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M46",
+    "bestViewTimes": "winter",
+    "magnitude": 6,
+    "names": ["NGC 2437"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M47",
+    "bestViewTimes": "winter",
+    "magnitude": 5.2,
+    "names": ["NGC 2422"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M48",
+    "bestViewTimes": "winter",
+    "magnitude": 5.5,
+    "names": ["NGC 2548"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M49",
+    "bestViewTimes": "summer",
+    "magnitude": 8.4,
+    "names": ["NGC 4472"],
+    "difficultlyLevel": "Moderate",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M50",
+    "bestViewTimes": "winter",
+    "magnitude": 5.9,
+    "names": ["NGC 2323", "Heart-Shaped Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M51",
+    "bestViewTimes": "summer",
+    "magnitude": 8.4,
+    "names": ["NGC 5194", "NGC_5195", "NGC 5195", "Whirlpool Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M52",
+    "bestViewTimes": "autumn",
+    "magnitude": 7.3,
+    "names": ["NGC 7654", "Scorpion Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M53",
+    "bestViewTimes": "spring",
+    "magnitude": 7.6,
+    "names": ["NGC 5024"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M54",
+    "bestViewTimes": "winter",
+    "magnitude": 7.6,
+    "names": ["NGC 6715"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M55",
+    "bestViewTimes": "winter",
+    "magnitude": 6.3,
+    "names": ["NGC 6809", "Specter Cluster"],
+    "difficultlyLevel": "Hard",
+    "type": "Globular cluster"
+}, {
+    "object": "M56",
+    "bestViewTimes": "winter",
+    "magnitude": 8.3,
+    "names": ["NGC 6779"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M57",
+    "bestViewTimes": "summer",
+    "magnitude": 8.8,
+    "names": ["NGC 6720", "Ring Nebula"],
+    "difficultlyLevel": "Easy",
+    "type": "Planetary nebula"
+}, {
+    "object": "M58",
+    "bestViewTimes": "summer",
+    "magnitude": 9.7,
+    "names": ["NGC 4579"],
+    "difficultlyLevel": "Moderate",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M59",
+    "bestViewTimes": "summer",
+    "magnitude": 9.6,
+    "names": ["NGC 4621"],
+    "difficultlyLevel": "Hard",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M60",
+    "bestViewTimes": "summer",
+    "magnitude": 8.8,
+    "names": ["NGC 4649"],
+    "difficultlyLevel": "Moderate",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M61",
+    "bestViewTimes": "summer",
+    "magnitude": 9.7,
+    "names": ["NGC 4303", "Swelling Spiral"],
+    "difficultlyLevel": "Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M62",
+    "bestViewTimes": "winter",
+    "magnitude": 6.5,
+    "names": ["NGC 6266", "Flickering Globular"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M63",
+    "bestViewTimes": "summer",
+    "magnitude": 8.6,
+    "names": ["NGC 5055", "Sunflower Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M64",
+    "bestViewTimes": "summer",
+    "magnitude": 8.5,
+    "names": ["NGC 4826", "Black Eye Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M65",
+    "bestViewTimes": "summer",
+    "magnitude": 9.3,
+    "names": ["NGC 3623", "Leo Triplet"],
+    "difficultlyLevel": "Moderate",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M66",
+    "bestViewTimes": "spring",
+    "magnitude": 8.9,
+    "names": ["NGC 3627", "Leo Triplet"],
+    "difficultlyLevel": "Easy",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M67",
+    "bestViewTimes": "winter",
+    "magnitude": 6.1,
+    "names": ["NGC 2682", "King Cobra Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M68",
+    "bestViewTimes": "summer",
+    "magnitude": 7.8,
+    "names": ["NGC 4590"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Globular cluster"
+}, {
+    "object": "M69",
+    "bestViewTimes": "winter",
+    "magnitude": 7.6,
+    "names": ["NGC 6637"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M70",
+    "bestViewTimes": "winter",
+    "magnitude": 7.9,
+    "names": ["NGC 6681"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M71",
+    "bestViewTimes": "winter",
+    "magnitude": 8.2,
+    "names": ["NGC 6838", "Angelfish Cluster"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M72",
+    "bestViewTimes": "summer",
+    "magnitude": 9.3,
+    "names": ["NGC 6981"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M73",
+    "bestViewTimes": "summer",
+    "magnitude": 9,
+    "names": ["NGC 6994"],
+    "difficultlyLevel": "Hard",
+    "type": "Asterism"
+}, {
+    "object": "M74",
+    "bestViewTimes": "summer",
+    "magnitude": 9.4,
+    "names": ["NGC 628", "Phantom Galaxy"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M75",
+    "bestViewTimes": "summer",
+    "magnitude": 8.5,
+    "names": ["NGC 6864"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M76",
+    "bestViewTimes": "summer",
+    "magnitude": 10.1,
+    "names": ["NGC 650, NGC 651", "Little Dumbbell Nebula"],
+    "difficultlyLevel": "Moderate",
+    "type": "Planetary nebula"
+}, {
+    "object": "M77",
+    "bestViewTimes": "summer",
+    "magnitude": 8.9,
+    "names": ["NGC 1068", "Cetus A or Squid Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M78",
+    "bestViewTimes": "winter",
+    "magnitude": 8.3,
+    "names": ["NGC 2068", "Casper the Friendly Ghost Nebula"],
+    "difficultlyLevel": "Moderate",
+    "type": "Diffuse nebula"
+}, {
+    "object": "M79",
+    "bestViewTimes": "winter",
+    "magnitude": 7.7,
+    "names": ["NGC 1904"],
+    "difficultlyLevel": "Moderate",
+    "type": "Globular cluster"
+}, {
+    "object": "M80",
+    "bestViewTimes": "summer",
+    "magnitude": 7.3,
+    "names": ["NGC 6093"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M81",
+    "bestViewTimes": "spring",
+    "magnitude": 6.9,
+    "names": ["NGC 3031", "Bode's Galaxy"],
+    "difficultlyLevel": "Easy",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M82",
+    "bestViewTimes": "spring",
+    "magnitude": 8.4,
+    "names": ["NGC 3034", "Cigar Galaxy"],
+    "difficultlyLevel": "Easy",
+    "type": "Starburst galaxy"
+}, {
+    "object": "M83",
+    "bestViewTimes": "winter",
+    "magnitude": 7.6,
+    "names": ["NGC 5236", "Southern Pinwheel Galaxy"],
+    "difficultlyLevel": "Hard",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M84",
+    "bestViewTimes": "summer",
+    "magnitude": 9.1,
+    "names": ["NGC 4374"],
+    "difficultlyLevel": "Moderate",
+    "type": "Lenticular galaxy"
+}, {
+    "object": "M85",
+    "bestViewTimes": "summer",
+    "magnitude": 9.1,
+    "names": ["NGC 4382"],
+    "difficultlyLevel": "Moderate",
+    "type": "Lenticular galaxy"
+}, {
+    "object": "M86",
+    "bestViewTimes": "summer",
+    "magnitude": 8.9,
+    "names": ["NGC 4406"],
+    "difficultlyLevel": "Moderate",
+    "type": "Lenticular galaxy"
+}, {
+    "object": "M87",
+    "bestViewTimes": "summer",
+    "magnitude": 8.6,
+    "names": ["NGC 4486", "Virgo A or Smoking Gun Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M88",
+    "bestViewTimes": "summer",
+    "magnitude": 9.6,
+    "names": ["NGC 4501"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M89",
+    "bestViewTimes": "summer",
+    "magnitude": 9.8,
+    "names": ["NGC 4552"],
+    "difficultlyLevel": "Moderate",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M90",
+    "bestViewTimes": "winter",
+    "magnitude": 9.5,
+    "names": ["NGC 4569"],
+    "difficultlyLevel": "Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M91",
+    "bestViewTimes": "summer",
+    "magnitude": 10.2,
+    "names": ["NGC 4548"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M92",
+    "bestViewTimes": "summer",
+    "magnitude": 6.4,
+    "names": ["NGC 6341"],
+    "difficultlyLevel": "Easy",
+    "type": "Globular cluster"
+}, {
+    "object": "M93",
+    "bestViewTimes": "winter",
+    "magnitude": 6,
+    "names": ["NGC 2447", "Critter Cluster"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M94",
+    "bestViewTimes": "winter",
+    "magnitude": 8.2,
+    "names": ["NGC 4736", "Crocodile Eye or Cat's Eye Galaxy"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M95",
+    "bestViewTimes": "summer",
+    "magnitude": 9.7,
+    "names": ["NGC 3351"],
+    "difficultlyLevel": "Hard",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M96",
+    "bestViewTimes": "summer",
+    "magnitude": 9.2,
+    "names": ["NGC 3368"],
+    "difficultlyLevel": "Moderate",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M97",
+    "bestViewTimes": "summer",
+    "magnitude": 9.9,
+    "names": ["NGC 3587", "Owl Nebula"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Planetary nebula"
+}, {
+    "object": "M98",
+    "bestViewTimes": "summer",
+    "magnitude": 10.1,
+    "names": ["NGC 4192"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M99",
+    "bestViewTimes": "summer",
+    "magnitude": 9.9,
+    "names": ["NGC 4254", "St. Catherine’s Wheel"],
+    "difficultlyLevel": "Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M100",
+    "bestViewTimes": "summer",
+    "magnitude": 9.3,
+    "names": ["NGC 4321", "Mirror Galaxy"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M101",
+    "bestViewTimes": "summer",
+    "magnitude": 7.9,
+    "names": ["NGC 5457", "Pinwheel Galaxy"],
+    "difficultlyLevel": "Very Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M102",
+    "bestViewTimes": "summer",
+    "magnitude": 9.9,
+    "names": ["NGC 5866", "Spindle Galaxy"],
+    "difficultlyLevel": "Hard",
+    "type": "Lenticular galaxy"
+}, {
+    "object": "M103",
+    "bestViewTimes": "autumn",
+    "magnitude": 7.4,
+    "names": ["NGC 581"],
+    "difficultlyLevel": "Easy",
+    "type": "Open cluster"
+}, {
+    "object": "M104",
+    "bestViewTimes": "spring",
+    "magnitude": 8,
+    "names": ["NGC 4594", "Sombrero Galaxy"],
+    "difficultlyLevel": "Easy",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M105",
+    "bestViewTimes": "summer",
+    "magnitude": 9.3,
+    "names": ["NGC 3379"],
+    "difficultlyLevel": "Moderate",
+    "type": "Elliptical galaxy"
+}, {
+    "object": "M106",
+    "bestViewTimes": "winter",
+    "magnitude": 8.4,
+    "names": ["NGC 4258"],
+    "difficultlyLevel": "Hard",
+    "type": "Spiral galaxy"
+}, {
+    "object": "M107",
+    "bestViewTimes": "winter",
+    "magnitude": 7.9,
+    "names": ["NGC 6171", "Crucifix Cluster"],
+    "difficultlyLevel": "Hard",
+    "type": "Globular cluster"
+}, {
+    "object": "M108",
+    "bestViewTimes": "summer",
+    "magnitude": 10,
+    "names": ["NGC 3556", "Surfboard Galaxy"],
+    "difficultlyLevel": "Hard",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M109",
+    "bestViewTimes": "summer",
+    "magnitude": 9.8,
+    "names": ["NGC 3992", "Vacuum Cleaner Galaxy"],
+    "difficultlyLevel": "Hard",
+    "type": "Barred Spiral galaxy"
+}, {
+    "object": "M110",
+    "bestViewTimes": "summer",
+    "magnitude": 8.5,
+    "names": ["NGC 205", "Andromeda Satellite #2"],
+    "difficultlyLevel": "Hard",
+    "type": "Dwarf elliptical galaxy"
+}]
