@@ -67,32 +67,29 @@ fetch('/data/sky-objects.json').
             row = 0;
 
         const TOTAL_ROWS = 8;
-        levels.forEach(lvl => {
+levels.forEach(lvl => {
 
             const group = groups[lvl];
             const size = group.length;
             const columns = Math.ceil(size / TOTAL_ROWS);
             const fsize = size % TOTAL_ROWS;
 
-            let resetIt =0;
+            let col = startCol;
             while ((fsize + row) % TOTAL_ROWS !== 0) {
                 row++;
-                resetIt++;
-                
             }
             let i = 0;
-            let col = startCol;
+            if (columns > 1 && row > 0) {
+                col++;
+                row = 0;
+            }
             while (i < size) {
                 const cell = document.getElementById(`cell_${row}_${col}`);
                 cell.innerHTML = group[i].object;
-                console.log(resetIt,i,size, columns, row, col, group[i].object, typeof cell);
+                console.log(i,size, columns, row, col, group[i].object, typeof cell);
                 
                 col++;
                 const diff = col - startCol;
-                if (columns > 1 && diff > 0 && resetIt > 0) {
-                    row = 0;
-                    resetIt = 0;
-                } 
                 if (diff >= columns) {
                     col = startCol;
                     row++;
@@ -105,9 +102,6 @@ fetch('/data/sky-objects.json').
             row = 0;
                 
         });
-        
-        
-
         console.log(groups);
         
     });
