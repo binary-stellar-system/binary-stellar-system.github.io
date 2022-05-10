@@ -89,7 +89,7 @@ fetch('/data/sky-objects.json').
                 
                 col++;
                 const diff = col - startCol;
-                if (diff > 0 && resetIt > 0) {
+                if (columns > 1 && diff > 0 && resetIt > 0) {
                     row = 0;
                     resetIt = 0;
                 } 
