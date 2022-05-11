@@ -103,6 +103,6 @@ window.addEventListener('DOMContentLoaded', () => {
             return;
         }
         const obj = document.getElementById('object-info');
-        obj.innerHTML = target.dataset.names + ' => ' + target.dataset.type;
+        obj.innerHTML = '&nbps;&nbps;&nbps;&nbps;&nbps;' + target.dataset.names + ' => ' + target.dataset.type;
     });
 });
