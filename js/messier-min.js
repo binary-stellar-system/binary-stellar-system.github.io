@@ -80,6 +80,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 cell.className = group[i].bestViewTimes;
                 cell.dataset.type = group[i].type;
                 cell.dataset.names = group[i].names.join(' / ');
+                cell.dataset.messier = group[i].object;
                 cell.dataset.level = group[i].difficultyLevel;
                 cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
 
@@ -103,6 +104,7 @@ window.addEventListener('DOMContentLoaded', () => {
             return;
         }
         const obj = document.getElementById('object-info');
-        obj.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + target.dataset.names + ' => ' + target.dataset.type;
+        const dset = target.dataset;
+        obj.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
     });
 });
