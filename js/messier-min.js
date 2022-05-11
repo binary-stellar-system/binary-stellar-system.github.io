@@ -37,8 +37,7 @@ for (let i = 0; i < 8; i++) {
 
 const groups = {};
 
-fetch('/data/sky-objects.json').
-then(async response => {
+fetch('/data/sky-objects.json').then(async response => {
 
     const json = await response.json();
 
