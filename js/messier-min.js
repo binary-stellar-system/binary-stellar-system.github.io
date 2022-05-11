@@ -52,7 +52,7 @@ then(async response => {
 
         const flevel = json.filter(item => {
 
-            return item.difficultlyLevel === c;
+            return item.difficultyLevel === c;
 
         });
         groups[c] = flevel;
