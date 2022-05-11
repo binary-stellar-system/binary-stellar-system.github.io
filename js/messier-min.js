@@ -83,6 +83,7 @@ then(async response => {
             const cell = document.getElementById(`cell_${row}_${col}`);
             cell.className = group[i].bestViewTimes;
             cell.dataset.type = group[i].type;
+            cell.dataset.names = group[i].names;
             cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
             //console.log(i,size, columns, row, col, group[i].object, typeof cell);
 
