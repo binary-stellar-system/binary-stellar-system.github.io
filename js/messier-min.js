@@ -102,6 +102,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (name.toLowerCase() !== 'td') {
             return;
         }
-        console.log(target.dataset.names, target.dataset.type, target.dataset.level);
+        const obj = document.getElementById('object-info');
+        obj.innerHTML = target.dataset.names + ' => ' + target.dataset.type;
     });
 });
