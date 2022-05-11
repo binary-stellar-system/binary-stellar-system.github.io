@@ -1,8 +1,6 @@
 const pnode = document.getElementById('messier-container');
 const tbl = document.createElement('table');
 tbl.id = 'messier';
-tbl.style.border = '1px solid black';
-tbl.style.margin = ' 0 auto';
 pnode.appendChild(tbl);
 
 const levels = ['Very Easy', 'Easy',
@@ -31,9 +29,6 @@ for (let i = 0; i < 8; i++) {
     for (let j = 0; j < 18; j++) {
 
         const td = document.createElement('td');
-        td.style.fontSize = '1.5em';
-        td.style.padding = '1px';
-        td.style.border = '1px solid black';
         td.id = `cell_${i}_${j}`;
         td.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;';
         tr.appendChild(td);
@@ -48,14 +43,14 @@ then(async response => {
     const json = await response.json();
 
     for (let i = 0, end = levels.length; i < end; i++) {
-        const c = levels[i];
+        const lvl = levels[i];
 
         const flevel = json.filter(item => {
 
-            return item.difficultyLevel === c;
+            return item.difficultyLevel === lvl;
 
         });
-        groups[c] = flevel;
+        groups[lvl] = flevel;
     }
 
 
@@ -86,7 +81,6 @@ then(async response => {
             cell.dataset.names = group[i].names.join(', ');
             cell.dataset.level = group[i].difficultyLevel;
             cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
-            //console.log(i,size, columns, row, col, group[i].object, typeof cell);
 
             col++;
             const diff = col - startCol;
@@ -95,11 +89,8 @@ then(async response => {
                 row++;
             }
             i++;
-
         }
-
         startCol += 1 + columns;
         row = 0;
-
     });
 });
