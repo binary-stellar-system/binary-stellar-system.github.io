@@ -79,7 +79,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const cell = document.getElementById(`cell_${row}_${col}`);
                 cell.className = group[i].bestViewTimes;
                 cell.dataset.type = group[i].type;
-                cell.dataset.names = group[i].names.join(', ');
+                cell.dataset.names = group[i].names.join(' / ');
                 cell.dataset.level = group[i].difficultyLevel;
                 cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
 
