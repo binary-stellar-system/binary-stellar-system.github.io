@@ -105,6 +105,9 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         const obj = document.getElementById('object-info');
         const dset = target.dataset;
+        if (!dset || !dset.names || !dset.messier) {
+            return;
+        }
         obj.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
     });
 });
