@@ -26,7 +26,10 @@
           background-color: #CFA;
        }
        .autumn {
-          background-color: #EF7;
+          background-color: #FB0;
+       }
+       #messier {
+           width: 820px;
        }
        table {
           font-weight: bold;
@@ -47,6 +50,30 @@
            font-weight: normal;
            padding: 0.2em;
        }
+       .WebWindowArea {
+           background-color: black;
+       }
+       .WebWindowMain {
+           width: 925px;
+           margin: 0 auto;
+       }
+       .slanted-text {
+           writing-mode: vertical-rl;
+           text-orientation: upright;
+           width: 35px;
+           float: left;
+           font-size: 2em;
+           background-color: black;
+           padding: 5px;
+           color: yellow;
+           margin-left: 15px;
+       }
+       .horizontal {
+           color: yellow;
+           font-size: 2em;
+           word-spacing: 2.5em;
+           padding: 0.5em;
+       }
     </style>
 </head>
 <body>
@@ -60,10 +87,11 @@
             </div>
             <div class="WebWindowArea">
                 <div id="messier-container">
-
+                    <div class="slanted-text">+ Brightness -</div>
                 </div>
                 <br>
                 <div id="key-container">
+                   <div class="horizontal"><- Easy <---> Difficult -></div>
                    <table>
                        <tr>
                            <td class="spring">Spring</td>
@@ -75,7 +103,7 @@
                 </div>
             </div>
             <div class="WebWindowFooter">
-                Brighter at top and dimmer at bottom.  Easy to the left and harder to the right.
+                Messier Objects
             </div>
         </div>
     </div>
