@@ -7,11 +7,13 @@
 		<title>TECHNICAL SKILLS</title>
 		<skillset>
 			<title>Programming Languages</title>
-			<skill level="10/10">HTML/CSS (scss)</skill>
+			<skill level="10/10">HTML/CSS</skill>
+			<!--<skill level="10/10">HTML/CSS (scss)</skill>-->
 			<skill level="10/10">JavaScript (es6+, DOM, AJAX/fetch, react, node.js, Jasmine Unit Testing)</skill>
 			<!--skill level="8/10">XML</skill-->
 			<!--<skill level="8/10">XSLT</skill>-->
-			<skill level="8/10">Java [J2EE/JEE] (JSP, Struts Action Servlets, Spring, JSTL, Hibernate)</skill>
+			<!--<skill level="8/10">Java [J2EE/JEE] (JSP, Struts Action Servlets, Spring, JSTL, Hibernate)</skill>-->
+			<skill level="8/10">Java</skill>
 			<skill level="6/10">C</skill>
 			<skill level="7/10">shell scripting (csh, sh, bash)</skill>
 			<skill level="6/10">SQL</skill>
@@ -23,7 +25,8 @@
 		</skillset>
 		<skillset>
 			<title>Operating Systems</title>
-			<skill level="7/10">Unix(Sun/Solaris, HP-UX, AIX)/Linux/BSD</skill>
+			<!--<skill level="7/10">Unix(Sun/Solaris, HP-UX, AIX)/Linux/BSD</skill>-->
+			<skill level="7/10">Unix/Linux/BSD</skill>
 			<skill level="7/10">Mac OS X</skill>
 			<skill level="7/10">Microsoft Windows</skill>
 		</skillset>
@@ -33,23 +36,25 @@
 			<skill level="4/10">Oracle</skill>
 			<skill level="4/10">Sybase</skill>
 			<skill level="3/10">MySQL</skill>
-			<skill level="2/10">DB2</skill>
+			<!--<skill level="2/10">DB2</skill>-->
 		</skillset>
 		<skillset>
 			<title>Miscellaneous</title>
 			<skill level="5/10">Akamai</skill>
-			<skill level="5/10">Eclipse</skill>
+			<!--<skill level="5/10">Eclipse</skill>
 			<skill level="5/10">Netbeans</skill>
 			<skill level="5/10">WebStorm</skill>
-			<skill level="5/10">Brackets</skill>
+			<skill level="5/10">Brackets</skill>-->
+			<skill level="5/10">VSCode</skill>
+			<skill level="5/10">Tomcat</skill>
 			<skill level="5/10">Tomcat</skill>
 			<skill level="5/10">Apache</skill>
 			<skill level="5/10">Maven</skill>
 			<skill level="3/10">jetty</skill>
-			<skill level="4/10">Ant</skill>
+			<!--<skill level="4/10">Ant</skill>
 			<skill level="5/10">grunt</skill>
 			<skill level="3/10">Gulp</skill>
-			<skill level="5/10">CVS</skill>
+			<skill level="5/10">CVS</skill>-->
 			<skill level="5/10">Subversion(svn)</skill>
 			<skill level="5/10">SourceSafe</skill>
 			<skill level="3/10">GIT</skill>
@@ -72,7 +77,7 @@
 				<from>
 					<date>
 						<month>November</month>
-						<year>2017</year>
+						<year>2016</year>
 					</date>
 				</from>
 				<to>
