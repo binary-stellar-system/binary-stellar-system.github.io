@@ -92,10 +92,10 @@
 				<achievement>Created docker containers for node.js apps and worked with Kubernetes, performance, and seceral other teams to run the application in Azure Kubernetes(AKS)</achievement>
 				<achievement>Implemented express.js, node.js and REDIS server to call render server and serve up site</achievement>
 				<achievement>Learned how to look at Akamai config and discover things that needed to be fixed and ways to improve caching</achievement>
-			 <achievement>Fixed memory leak in node.js render service to stabilize the node.js render service, for uptimes that extended the life of releases</achievement>
-                               <achievement>Improve performance of the node.js render service, using node.js profiling tools, better memoize cache, smaller cache key, and make cache an LRU cache</achievement>
-                               <achievement>Add custom monitoring statistics for node to track performance and metrics without overloading logs</achievement>
-                <achievement>Architect for Product Page 2017 and 2018 Enhancements, Community Enhancements, and Search Enhancements 2018 discoveries</achievement>
+			 	<achievement>Fixed memory leak in node.js render service to stabilize the node.js render service, for uptimes that extended the life of releases</achievement>
+                <achievement>Improve performance of the node.js render service, using node.js profiling tools, better memoize cache, smaller cache key, and make cache an LRU cache</achievement>
+                <achievement>Add custom monitoring statistics for node to track performance and metrics without overloading logs using splunk and then grafana</achievement>
+                <achievement>Architect for Product Page 2017 and 2018 Enhancements, Community Enhancements, and Search Enhancements 2018 discoveries, and many other projects</achievement>
                 <achievement>Domain Architect for Online Reservations (OLR), ADA, Loyalty, and SEO for Canada and many other discoveries and projects</achievement>
            </achievements>
         </job>
