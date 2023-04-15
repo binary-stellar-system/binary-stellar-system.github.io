@@ -275,9 +275,9 @@
     "object": "M40",
     "bestViewTimes": "spring",
     "magnitude": 8.4,
-    "names": ["Winnecke-4"],
+    "names": ["Winnecke-4", "HD 238107 and HD 238108" ],
     "difficultyLevel": "Easy",
-    "type": "Star System"
+    "type": "(Binary) Star System"
 }, {
     "object": "M41",
     "bestViewTimes": "winter",
