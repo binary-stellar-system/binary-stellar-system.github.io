@@ -109,5 +109,8 @@ window.addEventListener('DOMContentLoaded', () => {
             return;
         }
         obj.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
+        if (dset.image) {
+            // need image container        
+        }
     });
 });
