@@ -50,7 +50,7 @@
 }, {
     "object": "M8",
     "bestViewTimes": "summer",
-    "magnitude": 6,
+    "magnitude": 4.6,
     "names": ["NGC 6523", "Lagoon Nebula"],
     "difficultyLevel": "Moderate",
     "type": "Nebula"
@@ -323,7 +323,7 @@
 }, {
     "object": "M47",
     "bestViewTimes": "winter",
-    "magnitude": 5.2,
+    "magnitude": 4.4,
     "names": ["NGC 2422"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
