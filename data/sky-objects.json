@@ -88,7 +88,8 @@
     "magnitude": 5.8,
     "names": ["NGC 6205", "Great Hercules Cluster"],
     "difficultyLevel": "Very Easy",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m13_2024_05_30.png"
 }, {
     "object": "M14",
     "bestViewTimes": "summer",
@@ -186,7 +187,8 @@
     "magnitude": 7.4,
     "names": ["NGC 6853", "Dumbbell Nebula"],
     "difficultyLevel": "Easy",
-    "type": "Planetary nebula"
+    "type": "Planetary nebula",
+    "image": "m27_2024_07_19.png"
 }, {
     "object": "M28",
     "bestViewTimes": "summer",
