@@ -202,7 +202,8 @@
     "magnitude": 7.1,
     "names": ["NGC 6913", "Cooling Tower"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m29_2024_08_15_RGB_redo.png"
 }, {
     "object": "M30",
     "bestViewTimes": "summer",
@@ -272,7 +273,8 @@
     "magnitude": 4.6,
     "names": ["NGC 7092"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m29_2024_08_16_RGB.png"
 }, {
     "object": "M40",
     "bestViewTimes": "spring",
