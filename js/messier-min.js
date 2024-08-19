@@ -82,7 +82,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 cell.dataset.names = group[i].names.join(' / ');
                 cell.dataset.messier = group[i].object;
                 cell.dataset.level = group[i].difficultyLevel;
-                cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
+                if (group[i].image) {
+                    const img = `<img src="/images/viewimage.png" dataset-messier="${group[i].image}"/>`;
+                    cell.innerHTML = group[i].object + '<br>' + group[i].magnitude + img;
+                } else {
+                    cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
+                }
 
                 col++;
                 const diff = col - startCol;
