@@ -105,11 +105,15 @@ window.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', (event) => {
         const target = event.target;
         const name = target.nodeName;
-        if (name.toLowerCase() !== 'td' && name.toLowerCase() !== 'img') {
+        const isTD = (name.toLowerCase() === 'td'); 
+        const isIMG = (name.toLowerCase() === 'img'); 
+        if (!isTD && !isIMG) {
             return;
         }
         const obj = document.getElementById('object-info');
-        const dset = target.dataset;
+        const parent = (isIMG ? target.parent : target);
+        
+        const dset = parent.dataset;
         if (!dset || !dset.names || !dset.messier) {
             return;
         }
