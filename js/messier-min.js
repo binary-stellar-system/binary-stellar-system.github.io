@@ -105,7 +105,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', (event) => {
         const target = event.target;
         const name = target.nodeName;
-        if (name.toLowerCase() !== 'td') {
+        if (name.toLowerCase() !== 'td' && name.toLowerCase() !== 'img') {
             return;
         }
         const obj = document.getElementById('object-info');
