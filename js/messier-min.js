@@ -120,10 +120,10 @@ window.addEventListener('DOMContentLoaded', () => {
         if (imageTitle && image) {
             if (dset.image) {
                 imageTitle.innerHTML = title;
-                imageTitle.innerHTML = `<img src="/images/messier/${dset.image}">`;
+                image.innerHTML = `<img src="/images/messier/${dset.image}">`;
             } else {
                 imageTitle.innerHTML = '&nbsp;';
-                imageTitle.innerHTML = '';
+                image.innerHTML = '&nbsp;';
             }
         }
     });
