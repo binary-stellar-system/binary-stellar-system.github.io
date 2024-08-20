@@ -113,13 +113,14 @@ window.addEventListener('DOMContentLoaded', () => {
         if (!dset || !dset.names || !dset.messier) {
             return;
         }
-        obj.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
+        const title = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
+        obj.innerHTML = title;
         const imageTitle = document.getElementById('object-image');
         const image = document.getElementById('messier-object-image');
         if (imageTitle && image) {
             if (dset.image) {
-                imageTitle.innerHTML = obj.innerHTML;
-                imageTitle.innerHTML = `<img src=/images/messier/${dset.image}>`;
+                imageTitle.innerHTML = title;
+                imageTitle.innerHTML = `<img src="/images/messier/${dset.image}">`;
             } else {
                 imageTitle.innerHTML = '&nbsp;';
                 imageTitle.innerHTML = '';
