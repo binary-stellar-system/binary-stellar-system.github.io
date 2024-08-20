@@ -498,7 +498,8 @@
     "magnitude": 8.2,
     "names": ["NGC 6838", "Angelfish Cluster"],
     "difficultyLevel": "Moderate",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m71_2024_08_19_RGB.png"
 }, {
     "object": "M72",
     "bestViewTimes": "summer",
