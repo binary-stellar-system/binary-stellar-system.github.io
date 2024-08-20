@@ -114,8 +114,16 @@ window.addEventListener('DOMContentLoaded', () => {
             return;
         }
         obj.innerHTML = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
-        if (dset.image) {
-            // need image container        
+        const imageTitle = document.getElementById('object-image');
+        const image = document.getElementById('messier-object-image');
+        if (imageTitle && image) {
+            if (dset.image) {
+                imageTitle.innerHTML = obj.innerHTML;
+                imageTitle.innerHTML = `<img src=/images/messier/${dset.image}>`;
+            } else {
+                imageTitle.innerHTML = '&nbsp;';
+                imageTitle.innerHTML = '';
+            }
         }
     });
 });
