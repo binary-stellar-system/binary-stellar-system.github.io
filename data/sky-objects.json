@@ -89,7 +89,14 @@
     "names": ["NGC 6205", "Great Hercules Cluster"],
     "difficultyLevel": "Very Easy",
     "type": "Globular cluster",
-    "image": "m13_2024_05_30.png"
+    "image": "m13_2024_05_30.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "20 @ 120 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 40,
+    "filter": "none",
+    "date": "2024/05/30"
 }, {
     "object": "M14",
     "bestViewTimes": "summer",
@@ -188,7 +195,14 @@
     "names": ["NGC 6853", "Dumbbell Nebula"],
     "difficultyLevel": "Easy",
     "type": "Planetary nebula",
-    "image": "m27_2024_07_19.png"
+    "image": "m27_2024_07_19.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "67 @ 60 seconds + 5 @ 180 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 40,
+    "filter": "none",
+    "date":  "2024/07/19"
 }, {
     "object": "M28",
     "bestViewTimes": "summer",
@@ -203,7 +217,14 @@
     "names": ["NGC 6913", "Cooling Tower"],
     "difficultyLevel": "Easy",
     "type": "Open cluster",
-    "image": "m29_2024_08_15_RGB_redo.png"
+    "image": "m29_2024_08_15_RGB_redo.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "68 @ 30 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "CLS",
+    "date":  "2024/08/15"
 }, {
     "object": "M30",
     "bestViewTimes": "summer",
@@ -274,7 +295,15 @@
     "names": ["NGC 7092"],
     "difficultyLevel": "Easy",
     "type": "Open cluster",
-    "image": "m39_2024_08_16_RGB.png"
+    "image": "m39_2024_08_16_RGB.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "210 @ 10 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "none",
+    "date":  "2024/08/16"
+
 }, {
     "object": "M40",
     "bestViewTimes": "spring",
@@ -365,7 +394,15 @@
     "magnitude": 7.3,
     "names": ["NGC 7654", "Scorpion Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m52_2024_08_20_RGB.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "95 @ 600 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "none",
+    "date":  "2024/08/20"
 }, {
     "object": "M53",
     "bestViewTimes": "spring",
@@ -499,7 +536,14 @@
     "names": ["NGC 6838", "Angelfish Cluster"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster",
-    "image": "m71_2024_08_19_RGB.png"
+    "image": "m71_2024_08_19_RGB.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "20 @ 120 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "none",
+    "date":  "2024/08/19"
 }, {
     "object": "M72",
     "bestViewTimes": "summer",
