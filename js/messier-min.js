@@ -122,7 +122,7 @@ window.addEventListener('DOMContentLoaded', () => {
         obj.innerHTML = title;
 
         const image = document.getElementById('messier-object-image');
-        if (imageTitle && image) {
+        if (image) {
             if (dset.image) {
 
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
