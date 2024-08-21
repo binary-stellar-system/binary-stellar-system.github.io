@@ -123,12 +123,12 @@ window.addEventListener('DOMContentLoaded', () => {
         const imageTitle = document.getElementById('object-image');
         const image = document.getElementById('messier-object-image');
         if (imageTitle && image) {
-            if (dset.image) {
+            if (typeof dset.image !== "undefined") {
                 imageTitle.innerHTML = title;
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
             } else {
                 imageTitle.innerHTML = '&nbsp;';
-                image.innerHTML = '&nbsp;';
+                image.innerHTML = '';
             }
         }
     });
