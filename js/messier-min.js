@@ -120,14 +120,14 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         const title = `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${dset.messier} = ${dset.names} => ${dset.type}`;
         obj.innerHTML = title;
-        const imageTitle = document.getElementById('object-image');
+
         const image = document.getElementById('messier-object-image');
         if (imageTitle && image) {
             if (dset.image) {
-                imageTitle.innerHTML = title;
+
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
             } else {
-                imageTitle.innerHTML = '&nbsp;';
+
                 image.innerHTML = '';
             }
         }
