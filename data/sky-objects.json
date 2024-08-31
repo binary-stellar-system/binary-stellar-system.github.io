@@ -110,7 +110,15 @@
     "magnitude": 6.2,
     "names": ["NGC 7078", "Great Pegasus Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m15_2024_08_30_RGB.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "90 @ 60 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "None",
+    "date":  "2024/08/30"
 }, {
     "object": "M16",
     "bestViewTimes": "summer",
