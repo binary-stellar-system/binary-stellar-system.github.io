@@ -11,7 +11,15 @@
     "magnitude": 6.5,
     "names": ["NGC 7089"],
     "difficultyLevel": "Easy",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m2_2024_08_31_RGB.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "90 @ 60 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 80,
+    "filter": "none",
+    "date": "2024/08/31"
 }, {
     "object": "M3",
     "bestViewTimes": "spring",
