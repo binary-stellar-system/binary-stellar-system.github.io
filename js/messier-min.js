@@ -126,13 +126,16 @@ window.addEventListener('DOMContentLoaded', () => {
         const image = document.getElementById('messier-object-image');
         if (image) {
             if (dset.image) {
+                const objectData = window.messierData.find(item => item.object === objectName);
+                const results = `Scope: ${objectData.scope}
+                    <br>Camera: ${objectData.camera}
+                    <br>Gain/Offset: ${objectData.gain}/${objectData.offset}
+                    <br>Lights: ${objectData.lights}
+                    <br>Filters: ${objectData.filter}
+                    <br>Date: ${objectData.date}`;
 
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
-
-                const objectData = window.messierData.find(item => item.object === objectName);
-                Object.keys(objectData)
             } else {
-
                 image.innerHTML = '';
             }
         }
