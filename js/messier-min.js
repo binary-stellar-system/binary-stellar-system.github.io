@@ -130,6 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
 
                 const objectData = window.messierData[objectName];
+                Object.keys(objectData)
             } else {
 
                 image.innerHTML = '';
