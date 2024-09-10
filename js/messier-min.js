@@ -114,7 +114,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         const obj = document.getElementById('object-info');
         const parent = (isIMG ? target.parentNode : target);
-        const objectName = target.innerHTML.split('<br>')[0];
+        const objectName = parent.innerHTML.split('<br>')[0];
         
         const dset = parent.dataset;
         if (!dset || !dset.names || !dset.messier) {
