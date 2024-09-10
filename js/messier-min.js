@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <br>Filters: ${objectData.filter}
                     <br>Date: ${objectData.date}`;
 
-                image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
+                image.innerHTML = `<div class="overlay">${results}</div><img src="/images/messier/${dset.image}" width="800px" height="600px">`;
             } else {
                 image.innerHTML = '';
             }
