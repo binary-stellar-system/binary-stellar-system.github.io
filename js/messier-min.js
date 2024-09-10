@@ -42,6 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
     fetch('/data/sky-objects.json').then(async response => {
 
         const json = await response.json();
+	window.messierData = json;
 
         for (let i = 0, end = levels.length; i < end; i++) {
             const lvl = levels[i];
