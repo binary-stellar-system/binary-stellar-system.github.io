@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
     fetch('/data/sky-objects.json').then(async response => {
 
         const json = await response.json();
-	window.messierData = json;
+        window.messierData = json;
 
         for (let i = 0, end = levels.length; i < end; i++) {
             const lvl = levels[i];
@@ -114,6 +114,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         const obj = document.getElementById('object-info');
         const parent = (isIMG ? target.parentNode : target);
+        const objectName = target.innerHTML.split('<br>')[0];
         
         const dset = parent.dataset;
         if (!dset || !dset.names || !dset.messier) {
@@ -127,6 +128,8 @@ window.addEventListener('DOMContentLoaded', () => {
             if (dset.image) {
 
                 image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
+
+                const objectData = window.messierData[objectName];
             } else {
 
                 image.innerHTML = '';
