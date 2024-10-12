@@ -254,7 +254,15 @@
     "magnitude": 3.4,
     "names": ["NGC 224", "Andromeda Galaxy"],
     "difficultyLevel": "Easy",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m31_2024_10_4h_45m_merged_4.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "283 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date":  "2024/10/01-03"
 }, {
     "object": "M32",
     "bestViewTimes": "autumn",
