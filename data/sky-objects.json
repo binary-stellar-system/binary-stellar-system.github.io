@@ -75,7 +75,15 @@
     "magnitude": 6.6,
     "names": ["NGC 6254"],
     "difficultyLevel": "Moderate",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m10_2024_06_17_redone_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "11 @ 60 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 40,
+    "filter": "none",
+    "date": "2024/06/17"
 }, {
     "object": "M11",
     "bestViewTimes": "summer",
