@@ -97,7 +97,15 @@
     "magnitude": 6.7,
     "names": ["NGC 6218"],
     "difficultyLevel": "Moderate",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m12_DBE_rgb_redo_original_merged_2_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "20 @ 60 seconds",
+    "camera": "ZWO ASI178mc",
+    "gain": 50,
+    "offset": 40,
+    "filter": "none",
+    "date": "2024/06/04"
 }, {
     "object": "M13",
     "bestViewTimes": "summer",
