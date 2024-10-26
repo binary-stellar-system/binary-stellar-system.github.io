@@ -292,7 +292,15 @@
     "magnitude": 5.7,
     "names": ["NGC 598", "Triangulum/Pinwheel Galaxy"],
     "difficultyLevel": "Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m33_2024_10_22_23_24_6h_redone.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "60 @ 120 seconds + 86 @ 180 seconds ",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2024/10/22 + 2024/10/23 + 2024/10/24"
 }, {
     "object": "M34",
     "bestViewTimes": "autumn",
