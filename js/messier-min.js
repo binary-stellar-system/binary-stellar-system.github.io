@@ -137,7 +137,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         <br>Date: ${objectData.date}</div>`;
                 }
                 image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
-                const imgiObj = image.getElementsByTagName('img')[0];
+                const imgObj = image.getElementsByTagName('img')[0];
                 const imgStyleObj = getComputedStyle(imgObj);
                 const iWidth = imgStyleObj.getPropertyValue('width');
                 const iHeight = imgStyleObj.getPropertyValue('height');
@@ -145,6 +145,8 @@ window.addEventListener('DOMContentLoaded', () => {
                     const iWidthVal = parseInt(iWidth);
                     const iHeightVal = parseInt(iHeight);
                     const ratio = Math.floor(imgWidthVal * 100 / 800) * 100;
+                    const nWidth = Math.floor(iWidthVal / ratio);
+                    const nHeight = Math.floor(iHeightVal / ratio);
                 }
             } else {
                 image.innerHTML = '';
