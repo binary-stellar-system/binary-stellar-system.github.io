@@ -136,7 +136,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         <br>Filters: ${objectData.filter}
                         <br>Date: ${objectData.date}</div>`;
                 }
-                image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
+                image.innerHTML = `${results}<img src="/images/messier/${dset.image}">`;
                 const imgObj = image.getElementsByTagName('img')[0];
                 const imgStyleObj = getComputedStyle(imgObj);
                 const iWidth = imgStyleObj.getPropertyValue('width');
@@ -144,7 +144,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (iWidth && iHeight) {
                     const iWidthVal = parseInt(iWidth);
                     const iHeightVal = parseInt(iHeight);
-                    const ratio = Math.floor(imgWidthVal * 100 / 800) * 100;
+                    const ratio = Math.floor(iWidthVal * 100 / 800) * 100;
                     const nWidth = Math.floor(iWidthVal / ratio);
                     const nHeight = Math.floor(iHeightVal / ratio);
                 }
