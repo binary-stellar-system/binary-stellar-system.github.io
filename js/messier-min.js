@@ -127,21 +127,20 @@ window.addEventListener('DOMContentLoaded', () => {
         if (image) {
             if (dset.image) {
                 const objectData = window.messierData.find(item => item.object === objectName);
+                let results = '';
                 if (objectData) {
-                    const results = `Scope: ${objectData.scope}
+                    results = `<div class="overlay">Scope: ${objectData.scope}
                         <br>Camera: ${objectData.camera}
                         <br>Gain/Offset: ${objectData.gain}/${objectData.offset}
                         <br>Lights: ${objectData.lights}
                         <br>Filters: ${objectData.filter}
-                        <br>Date: ${objectData.date}`;
-    
-                    image.innerHTML = `<div class="overlay">${results}</div><img src="/images/messier/${dset.image}" width="800px" height="600px">`;
-                } else {
-                    image.innerHTML = `<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
+                        <br>Date: ${objectData.date}</div>`;
                 }
+                image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
             } else {
                 image.innerHTML = '';
             }
+            const imgObj = getComputedStyle(image);
         }
     });
 });
