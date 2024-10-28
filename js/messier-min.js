@@ -138,16 +138,18 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
                 image.innerHTML = `${results}<img src="/images/messier/${dset.image}">`;
                 const imgObj = image.getElementsByTagName('img')[0];
-                const imgStyleObj = getComputedStyle(imgObj);
-                const iWidth = imgStyleObj.getPropertyValue('width');
-                const iHeight = imgStyleObj.getPropertyValue('height');
-                if (iWidth && iHeight) {
-                    const iWidthVal = parseInt(iWidth);
-                    const iHeightVal = parseInt(iHeight);
-                    const ratio = Math.floor(iWidthVal * 100 / 800) * 100;
-                    const nWidth = Math.floor(iWidthVal / ratio);
-                    const nHeight = Math.floor(iHeightVal / ratio);
-                }
+                imgObj.addEventListener('load', () => {
+                    const imgStyleObj = getComputedStyle(imgObj);
+                    const iWidth = imgStyleObj.getPropertyValue('width');
+                    const iHeight = imgStyleObj.getPropertyValue('height');
+                    if (iWidth && iHeight) {
+                        const iWidthVal = parseInt(iWidth);
+                        const iHeightVal = parseInt(iHeight);
+                        const ratio = Math.floor(iWidthVal * 100 / 800) * 100;
+                        const nWidth = Math.floor(iWidthVal / ratio);
+                        const nHeight = Math.floor(iHeightVal / ratio);
+                    }
+                });
             } else {
                 image.innerHTML = '';
             }
