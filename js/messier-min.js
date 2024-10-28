@@ -145,9 +145,11 @@ window.addEventListener('DOMContentLoaded', () => {
                     if (iWidth && iHeight) {
                         const iWidthVal = parseInt(iWidth);
                         const iHeightVal = parseInt(iHeight);
-                        const ratio = Math.floor(iWidthVal * 100 / 800) * 100;
+                        const ratio = Math.floor(iWidthVal * 100 / 800) / 100;
                         const nWidth = Math.floor(iWidthVal / ratio);
                         const nHeight = Math.floor(iHeightVal / ratio);
+                        imgObj.style.width = `${nWidth}px`;
+                        imgObj.style.height = `${nHeight}px`;
                     }
                 });
             } else {
