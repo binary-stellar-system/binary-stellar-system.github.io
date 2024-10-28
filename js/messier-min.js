@@ -139,8 +139,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
                 const imgiObj = image.getElementsByTagName('img')[0];
                 const imgStyleObj = getComputedStyle(imgObj);
-                const iWidth = imgStyleObj.getProperyValue('width');
-                const iHeight = imgStyleObj.getProperyValue('height');
+                const iWidth = imgStyleObj.getPropertyValue('width');
+                const iHeight = imgStyleObj.getPropertyValue('height');
                 if (iWidth && iHeight) {
                     const iWidthVal = parseInt(iWidth);
                     const iHeightVal = parseInt(iHeight);
