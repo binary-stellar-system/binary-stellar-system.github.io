@@ -137,10 +137,14 @@ window.addEventListener('DOMContentLoaded', () => {
                         <br>Date: ${objectData.date}</div>`;
                 }
                 image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
-                conbst img = image.getElementsByTagName('img')[0];
+                const img = image.getElementsByTagName('img')[0];
                 const imgObj = getComputedStyle(img);
                 const iWidth = imgObj.getProperyValue('width');
                 const iHeight = imgObj.getProperyValue('height');
+                if (iWidth && iHeight) {
+                    const iWidthVal = parseInt(iWidth);
+                    const iHeightVal = parseInt(iHeight);
+                }
             } else {
                 image.innerHTML = '';
             }
