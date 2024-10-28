@@ -137,10 +137,13 @@ window.addEventListener('DOMContentLoaded', () => {
                         <br>Date: ${objectData.date}</div>`;
                 }
                 image.innerHTML = `${results}<img src="/images/messier/${dset.image}" width="800px" height="600px">`;
+                conbst img = image.getElementsByTagName('img')[0];
+                const imgObj = getComputedStyle(img);
+                const iWidth = imgObj.getProperyValue('width');
+                const iHeight = imgObj.getProperyValue('height');
             } else {
                 image.innerHTML = '';
             }
-            const imgObj = getComputedStyle(image);
         }
     });
 });
