@@ -307,7 +307,14 @@
     "magnitude": 5.5,
     "names": ["NGC 1039", "Spiral Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m34_2024_11_02_cropped_messier.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "120 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
 }, {
     "object": "M35",
     "bestViewTimes": "winter",
