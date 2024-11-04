@@ -315,6 +315,8 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
+    "date": "2024/11/02"
+
 }, {
     "object": "M35",
     "bestViewTimes": "winter",
