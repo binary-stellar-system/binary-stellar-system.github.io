@@ -402,7 +402,15 @@
     "magnitude": 1.6,
     "names": ["Pleiades, Seven Sisters or Subaru"],
     "difficultyLevel": "Very Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m45_2024_12_02_03_0_15_bg_gimp_0_15_scaled.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "98 @ 180 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2024/11/02 + 2024/11/03"
 }, {
     "object": "M46",
     "bestViewTimes": "winter",
