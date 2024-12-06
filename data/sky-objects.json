@@ -462,7 +462,7 @@
     "type": "Open cluster",
     "image": "m52_2024_08_20_RGB.png",
     "scope": "Astro Tech AT60ED",
-    "lights": "95 @ 600 seconds",
+    "lights": "95 @ 60 seconds",
     "camera": "ZWO ASI178mc",
     "gain": 50,
     "offset": 80,
