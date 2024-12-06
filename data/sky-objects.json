@@ -323,7 +323,15 @@
     "magnitude": 5.3,
     "names": ["NGC 2168", "Shoe-Buckle Cluster"],
     "difficultyLevel": "Very Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m35_2024_12_05_gimp_cropped_scaled.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "90 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2024/12/05"
 }, {
     "object": "M36",
     "bestViewTimes": "winter",
