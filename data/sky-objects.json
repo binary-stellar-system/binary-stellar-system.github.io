@@ -352,7 +352,15 @@
     "magnitude": 7.4,
     "names": ["NGC 1912", "Starfish Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m38_2024_12_08_RGB_cropped_scaled.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "166 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2024/12/08"
 }, {
     "object": "M39",
     "bestViewTimes": "autumn",
