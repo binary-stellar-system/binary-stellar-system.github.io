@@ -338,7 +338,15 @@
     "magnitude": 6.3,
     "names": ["NGC 1960", "Pinwheel Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m36_2024_12_09_merged_scaled_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "163 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2024/12/09"
 }, {
     "object": "M37",
     "bestViewTimes": "winter",
