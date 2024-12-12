@@ -361,7 +361,7 @@
     "names": ["NGC 1912", "Starfish Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster",
-    "image": "m38_2024_12_08_RGB_cropped_scaled.png",
+    "image": "m38_2024_12_08_dirzzle_1x_merged_cropped_scaled.png",
     "scope": "Astro Tech AT60ED",
     "lights": "166 @ 60 seconds",
     "camera": "ZWO ASI533mc pro",
