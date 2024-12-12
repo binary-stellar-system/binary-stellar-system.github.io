@@ -129,7 +129,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 const objectData = window.messierData.find(item => item.object === objectName);
                 let results = '';
                 if (objectData) {
-                    results = `<div class="overlay">Scope: ${objectData.scope}
+                    results = `<div class="overlay">Object: ${item.object}
+                        <br>Scope: ${objectData.scope}
                         <br>Camera: ${objectData.camera}
                         <br>Gain/Offset: ${objectData.gain}/${objectData.offset}
                         <br>Lights: ${objectData.lights}
