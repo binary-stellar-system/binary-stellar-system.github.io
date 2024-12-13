@@ -376,7 +376,7 @@
     "names": ["NGC 7092"],
     "difficultyLevel": "Easy",
     "type": "Open cluster",
-    "image": "m39_2024_08_16_RGB.png",
+    "image": "m39_2024_08_16_ai_redone_cropped_scaled.png",
     "scope": "Astro Tech AT60ED + AT60FF",
     "lights": "210 @ 10 seconds",
     "camera": "ZWO ASI178mc",
