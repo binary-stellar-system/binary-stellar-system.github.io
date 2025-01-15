@@ -12,7 +12,7 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date": "2025-01-12"
+    "date": "2025/01/12"
 }, {
     "object": "M2",
     "bestViewTimes": "autumn",
@@ -421,7 +421,7 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date": "2025-01-09"
+    "date": "2025/01/09"
 }, {
     "object": "M43",
     "bestViewTimes": "winter",
@@ -705,7 +705,7 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date": "2025-01-14"
+    "date": "2025/01/14"
 }, {
     "object": "M79",
     "bestViewTimes": "winter",
