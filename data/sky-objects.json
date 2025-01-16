@@ -925,15 +925,7 @@
     "difficultyLevel": "Hard",
     "type": "Barred Spiral galaxy"
 }, {
-    "object": "M109",,
-    "image": "m110_2024_10_4h_45m_clipped.png",
-    "scope": "Astro Tech AT60ED + AT60FF (cropped from Andromeda)",
-    "lights": "283 @ 60 seconds",
-    "camera": "ZWO ASI533mc pro",
-    "gain": 101,
-    "offset": 10,
-    "filter": "none",
-    "date":  "2024/10/01-03"
+    "object": "M109",
     "bestViewTimes": "spring",
     "magnitude": 9.8,
     "names": ["NGC 3992", "Vacuum Cleaner Galaxy"],
