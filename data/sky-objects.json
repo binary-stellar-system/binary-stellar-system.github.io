@@ -437,6 +437,14 @@
     "names": ["NGC 1982", "De Mairan's Nebula"],
     "difficultyLevel": "Easy",
     "type": "H II region"
+    "image": "m43_2025_01_09_drizzle_1x_scaled.png",
+    "scope": "Astro Tech AT60ED (masked part of M42 out)",
+    "lights": "307 @ 15 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2025/01/09"
 }, {
     "object": "M44",
     "bestViewTimes": "winter",
