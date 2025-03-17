@@ -622,7 +622,15 @@
     "magnitude": 9.3,
     "names": ["NGC 3623", "Leo Triplet"],
     "difficultyLevel": "Moderate",
-    "type": "Barred Spiral galaxy"
+    "type": "Barred Spiral galaxy",
+    "image": "m65_2025_03_14_drizzle_1x_merged_cropped_scaledd.png",
+    "scope": "Orion Xt8i onstep converted",
+    "lights": "684 @ 5 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 450,
+    "offset": 100,
+    "filter": "svbony IR Block",
+    "date":  "2025/103/14"
 }, {
     "object": "M66",
     "bestViewTimes": "spring",
