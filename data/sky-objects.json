@@ -638,6 +638,14 @@
     "names": ["NGC 3627", "Leo Triplet"],
     "difficultyLevel": "Easy",
     "type": "Barred Spiral galaxy"
+    "image": "m66_2025_03_24_3s_fastIntegration_merged.png",
+    "scope": "Orion Xt8i onstep converted",
+    "lights": "287 @ 3 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "svbony IR Block",
+    "date":  "2025/03/24"
 }, {
     "object": "M67",
     "bestViewTimes": "winter",
