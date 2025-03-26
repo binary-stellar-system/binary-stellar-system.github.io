@@ -637,7 +637,7 @@
     "magnitude": 8.9,
     "names": ["NGC 3627", "Leo Triplet"],
     "difficultyLevel": "Easy",
-    "type": "Barred Spiral galaxy"
+    "type": "Barred Spiral galaxy",
     "image": "m66_2025_03_24_3s_fastIntegration_merged.png",
     "scope": "Orion Xt8i onstep converted",
     "lights": "287 @ 3 seconds",
