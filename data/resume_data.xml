@@ -89,14 +89,14 @@
 				</to>
 			</period>
             <achievements>
-				<achievement>Created docker containers for node.js apps and worked with Kubernetes, performance, and seceral other teams to run the application in Azure Kubernetes(AKS)</achievement>
-				<achievement>Implemented express.js, node.js and REDIS server to call render server and serve up site</achievement>
-				<achievement>Learned how to look at Akamai config and discover things that needed to be fixed and ways to improve caching</achievement>
-			 	<achievement>Fixed memory leak in node.js render service to stabilize the node.js render service, for uptimes that extended the life of releases</achievement>
-                <achievement>Improve performance of the node.js render service, using node.js profiling tools, better memoize cache, smaller cache key, and make cache an LRU cache</achievement>
-                <achievement>Add custom monitoring statistics for node to track performance and metrics without overloading logs using splunk and then grafana</achievement>
-                <achievement>Architect for Product Page 2017 and 2018 Enhancements, Community Enhancements, and Search Enhancements 2018 discoveries, and many other projects</achievement>
-                <achievement>Domain Architect for Online Reservations (OLR), ADA, Loyalty, and SEO for Canada and many other discoveries and projects</achievement>
+				<achievement>Optimized production applications to adhere to AKS memory constraints defined by the microservices and performance teams, resolving out-of-memory (OOM) errors</achievement>
+				<achievement>Containerized Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS)</achievement>
+				<achievement>Architected and implemented a Node.js/Express.js backend with Redis integration to efficiently render and deliver Sephora.com's HTML content, utilizing memoization and lazy fetching to optimize data retrieval</achievement>
+			 	<achievement>I gained in-depth knowledge of Akamai configuration, uncovering areas for remediation and optimization in caching, as well as exploring the capabilities of Akamai EdgeWorkers and related cloudlets</achievement>
+                <achievement>I eliminated a memory leak within the Node.js render service, enabling long-term stability and extended uptimes of multiple months</achievement>
+                <achievement>Enhance the performance of the Node.js rendering pipeline through targeted optimization strategies, including profiling analysis, improved caching mechanisms, and worker thread implementation</achievement>
+                <achievement>Created custom metrics to monitor node performance, then implemented visualization dashboards in Splunk, Grafana, and Dynatrace, ensuring efficient tracking</achievement>
+                <achievement>Strategic UI domain architect for e-commerce platform enhancements, including product, community, and search functionalities, as well as shop, brand, online reservations, ADA compliance, loyalty programs, SEO for Canada and various other SEO optimizations and other project discoveries during my tenure at Sephora</achievement>
            </achievements>
         </job>
 		<job>
