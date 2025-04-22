@@ -17,18 +17,27 @@
             font-size: 1.2em;
        }
        .WebWindowFooter {
+           border-top: 1px solid black; 
            text-align: center;
            font-size: 0.8em;
            font-weight: normal;
            padding: 0.2em;
        }
        .WebWindowArea {
-           background-color: black;
+           background-color: white;
        }
        .WebWindowMain {
            border: 1px solid white; 
            width: 925px;
            margin: 0 auto;
+       }
+       #sound-container {
+            text-align: left;
+            padding: 1em;
+       }
+       #sound-container label {
+           display: inline-block;
+           width: 12em;
        }
        </style>
     </head>
@@ -43,7 +52,35 @@
             </div>
             <div class="WebWindowArea">
                 <div id="sound-container">
-
+                    <label>Note:</label>
+                    <select>
+                        <option></option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                    </select>
+                    <br>
+                    <label>Sharp or Flat:</label>
+                    <select>
+                        <option></option>
+                        <option value="b">Flat</option>
+                        <option value="#">Sharp</option>
+                    </select>
+                    <br>
+                    <label>Waveform:</label>
+                    <select>
+                        <option></option>
+                        <option value="sine">Sine</option>
+                        <option value="triangle">Triangle</option>
+                        <option value="square">Square</option>
+                        <option value="sawtooth">Sawtooth</option>
+                    </select>
+                    <br>
+                    <input type="text">
                 </div>
             </div>
             <div class="WebWindowFooter">
