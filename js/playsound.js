@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const sharpFlat = getSelectValue(document.getElementById('sound-sharp-flat'));
             const octave = getSelectValue(document.getElementById('sound-octave'));
             const waveform = getSelectValue(document.getElementById('sound-waveform'));
-            const duration = getSelectValue(document.getElementById('sound-duration'));
+            const duration = document.getElementById('sound-duration')?.value;
             
             console.log(note, sharpFlat, octave, waveform, duration);
         }
