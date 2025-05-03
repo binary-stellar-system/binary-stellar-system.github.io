@@ -1,6 +1,6 @@
 
 
-document.addEventListener('onDomContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
     // handles to elements
     const note = document.getElementById('sound-note');
