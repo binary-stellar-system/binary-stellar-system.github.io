@@ -5,7 +5,7 @@ const getSelectValue = (selectObj) => {
     if(!selectObj) {
         return undefined;
     }
-    console.log(selectObj.selectedIndex);
+    return selectObj.options[selectObj.selectedIndex];
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const target = event?.target?.id;
         if (target === 'form-submit') {
             // handles to elements
-            const note = document.getElementById('sound-note');
-            const sharpFlat = document.getElementById('sound-sharp-flat');
-            const octave = document.getElementById('sound-octave');
-            const waveforme = document.getElementById('sound-waveform');
-            const duration = document.getElementById('sound-duration');
+            const note = getSelectValue(document.getElementById('sound-note'));
+            const sharpFlat = getSelectValue(document.getElementById('sound-sharp-flat'));
+            const octave = getSelectValue(document.getElementById('sound-octave'));
+            const waveform = getSelectValue(document.getElementById('sound-waveform'));
+            const duration = getSelectValue(document.getElementById('sound-duration'));
             
-            console.log(getSelectValue(note));
+            console.log(note, sharpFlat, octave, waveform, duration);
         }
     });
 });
