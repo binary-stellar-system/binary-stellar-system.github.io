@@ -53,7 +53,7 @@
             <div class="WebWindowArea">
                 <div id="sound-container">
                     <label>Note:</label>
-                    <select>
+                    <select id="sound-note">
                         <option></option>
                         <option value="A">A</option>
                         <option value="B">B</option>
@@ -65,14 +65,14 @@
                     </select>
                     <br>
                     <label>Sharp or Flat:</label>
-                    <select>
+                    <select id="sound-sharp-flat">
                         <option></option>
                         <option value="b">Flat</option>
                         <option value="#">Sharp</option>
                     </select>
                     <br>
                     <label>Octave:</label>
-                    <select>
+                    <select id="sound-octave">
                         <option></option>
                         <option value="0">1</option>
                         <option value="1">2</option>
@@ -86,7 +86,7 @@
                     </select>
                     <br>
                     <label>Waveform:</label>
-                    <select>
+                    <select id="sound-waveform">
                         <option></option>
                         <option value="sine">Sine</option>
                         <option value="triangle">Triangle</option>
@@ -95,7 +95,7 @@
                     </select>
                     <br>
                     <label>Duration:</label>
-                    <input type="text">
+                    <input type="text" name="duration" id="sound-duration">
                     <br>
                     <button id="form-submit">Play Note</button>
                 </div>
