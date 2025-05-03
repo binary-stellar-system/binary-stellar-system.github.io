@@ -1,6 +1,6 @@
 
 
-const getSelectValue(selectObj) {
+const getSelectValue = (selectObj) => {
 
     if(!selectObj) {
         return undefined;
