@@ -13,5 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
         const target = event.target;
     
         console.log(target);
-    }
+    });
 });
