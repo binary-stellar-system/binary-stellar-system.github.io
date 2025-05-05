@@ -4,8 +4,9 @@ const getSelectValue = (selectObj) => {
 
     if(!selectObj) {
         return undefined;
-    }
-    return selectObj.options[selectObj.selectedIndex];
+    }  
+    const option = selectObj.options[selectObj.selectedIndex];
+    return option.value;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -20,7 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const waveform = getSelectValue(document.getElementById('sound-waveform'));
             const duration = document.getElementById('sound-duration')?.value;
             
-            console.log(note, sharpFlat, octave, waveform, duration);
+            if (note && sharpFlat && octave && waveform) {
+                const realNote = `${note.trim()}${sharpFlat.trim()}`;
+                if (duration && duration.length > 0) {
+                    const tone = window.soundPlayer.setNote(waveform, realNote, octave);
+                    window.soundPlayer.playNotes([tone], duration);
+                }
+            }
         }
     });
 });
