@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const waveform = getSelectValue(document.getElementById('sound-waveform'));
             const duration = document.getElementById('sound-duration')?.value;
             
-            if (note && sharpFlat && octave && waveform) {
-                const realNote = `${note.trim()}${sharpFlat.trim()}`;
+            if (note && octave && waveform) {
+                const realNote = `${note.trim()}${sharpFlat?.trim()}`;
                 if (duration && duration.length > 0) {
                     const tone = window.soundPlayer.setNote(waveform, realNote, octave);
                     window.soundPlayer.playNotes([tone], duration);
