@@ -946,7 +946,15 @@
     "magnitude": 7.9,
     "names": ["NGC 5457", "Pinwheel Galaxy"],
     "difficultyLevel": "Very Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m110_2024_10_4h_45m_clipped.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "35 @ 180 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date":  "2025/05/08"
 }, {
     "object": "M102",
     "bestViewTimes": "summer",
