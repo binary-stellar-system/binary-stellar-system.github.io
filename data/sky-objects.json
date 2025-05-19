@@ -56,7 +56,15 @@
     "magnitude": 5.6,
     "names": ["NGC 5904", "Rose Cluster"],
     "difficultyLevel": "Very Easy",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m5_2025_05_18_drizzle_1x_merged_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "19 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "svbony IR Cut",
+    "date": "2025/05/18"
 }, {
     "object": "M6",
     "bestViewTimes": "summer",
@@ -415,7 +423,15 @@
     "magnitude": 8.4,
     "names": ["Winnecke-4", "HD 238107 and HD 238108" ],
     "difficultyLevel": "Easy",
-    "type": "(Binary) Star System"
+    "type": "(Binary) Star System",
+    "image": "m40_2025_05_18_drizzle_1x_merged_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "5 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "svbony IR Cut",
+    "date": "2025/05/18"
 }, {
     "object": "M41",
     "bestViewTimes": "winter",
@@ -637,7 +653,7 @@
     "camera": "ZWO ASI533mc pro",
     "gain": 450,
     "offset": 100,
-    "filter": "svbony IR Block",
+    "filter": "svbony IR Cut",
     "date":  "2025/103/14"
 }, {
     "object": "M66",
@@ -652,7 +668,7 @@
     "camera": "ZWO ASI533mc pro",
     "gain": 101,
     "offset": 10,
-    "filter": "svbony IR Block",
+    "filter": "svbony IR Cut",
     "date":  "2025/03/24"
 }, {
     "object": "M67",
@@ -667,7 +683,7 @@
     "camera": "ZWO ASI533mc pro",
     "gain": 350,
     "offset": 50,
-    "filter": "svbony IR Block",
+    "filter": "svbony IR Cut",
     "date":  "2025/03/08"
 }, {
     "object": "M68",
