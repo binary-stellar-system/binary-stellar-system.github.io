@@ -562,7 +562,15 @@
     "magnitude": 7.6,
     "names": ["NGC 5024"],
     "difficultyLevel": "Easy",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m53_2025_05_20_drizzle_1x_merged_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "64 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "svbony IR Cut",
+    "date": "2025/05/20"
 }, {
     "object": "M54",
     "bestViewTimes": "summer",
