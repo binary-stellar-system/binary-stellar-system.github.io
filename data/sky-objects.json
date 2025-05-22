@@ -540,7 +540,15 @@
     "magnitude": 8.4,
     "names": ["NGC 5194", "NGC_5195", "NGC 5195", "Whirlpool Galaxy"],
     "difficultyLevel": "Moderate",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m51_2025_05_21_drizzle_1x_merged_cropped.png",
+    "scope": "Astro Tech AT60ED",
+    "lights": "86 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date":  "2024/08/21"
 }, {
     "object": "M52",
     "bestViewTimes": "autumn",
