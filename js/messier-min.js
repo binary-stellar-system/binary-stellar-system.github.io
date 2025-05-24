@@ -158,4 +158,23 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+    const CLASSES_LIST = ['summer', 'winter', 'spring', 'autumn'];
+    document.addEventListener('click', event => {
+        const element = event?.target?.nodeName?.toLowerCase();
+        if (!element || element !== 'button' || CLASSES_LIST.includes(element?.className)) {
+            return;
+        }
+        const season = element.className;
+        const tableItems = Array.from(document.querySelectorAll('td.summer, td.winter, td.spring, td.autumn'));
+        //const currentSeason = CLASSES_LIST.indexOf(season);
+        //console.log(currentSeason)
+        /*CLASSES_LIST.forEach(item => {
+            if (item === season) {
+            
+            } else {
+
+            }
+        });*/
+    });
 });
