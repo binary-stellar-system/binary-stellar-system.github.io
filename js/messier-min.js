@@ -161,20 +161,27 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const CLASSES_LIST = ['summer', 'winter', 'spring', 'autumn'];
     document.addEventListener('click', event => {
-        const element = event?.target?.nodeName?.toLowerCase();
-        if (!element || element !== 'button' || CLASSES_LIST.includes(element?.className)) {
+        const element = event?.target;
+        if (!element || element?.nodeName?.toLowerCase() !== 'button') {
+            return;
+        }
+        const tableItems = Array.from(document.querySelectorAll('td.summer, td.winter, td.spring, td.autumn'));
+        if (element?.innerHTML?.toLowerCase() === 'reset') {            
+            tableItems.forEach(item => {
+                item.style.opacity = '';
+            });
+            return;
+        }
+        //console.log('here', !CLASSES_LIST.includes(element?.className));
+        /*if (!CLASSES_LIST.includes(element?.nodeName?.className)) {
             return;
         }
         const season = element.className;
-        const tableItems = Array.from(document.querySelectorAll('td.summer, td.winter, td.spring, td.autumn'));
-        //const currentSeason = CLASSES_LIST.indexOf(season);
-        //console.log(currentSeason)
-        /*CLASSES_LIST.forEach(item => {
-            if (item === season) {
-            
-            } else {
-
-            }
+        tableItems.filter(item => {
+            (item.className === season) ? item.style.opacity = '' : '';
+            return (item.className !== season);
+        }).forEach(item => {
+            item.style.opacity = 0.25;
         });*/
     });
 });
