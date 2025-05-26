@@ -165,6 +165,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (!element || element?.nodeName?.toLowerCase() !== 'button') {
             return;
         }
+        // this is all the table items that have data
         const tableItems = Array.from(document.querySelectorAll('td.summer, td.winter, td.spring, td.autumn'));
         if (element?.innerHTML?.toLowerCase() === 'reset') {            
             tableItems.forEach(item => {
@@ -172,16 +173,24 @@ window.addEventListener('DOMContentLoaded', () => {
             });
             return;
         }
-        //console.log('here', !CLASSES_LIST.includes(element?.className));
-        /*if (!CLASSES_LIST.includes(element?.nodeName?.className)) {
+        // what season button was selected
+        const season = element?.className || '';
+        const isSeason = CLASSES_LIST.includes(season);
+        if (!isSeason) {
             return;
         }
-        const season = element.className;
         tableItems.filter(item => {
-            (item.className === season) ? item.style.opacity = '' : '';
-            return (item.className !== season);
+            // since we are looping over all items
+            // reset the opacity of the current season
+            const selectedSeason = (item.className === season);
+            if (selectedSeason) {
+                item.style.opacity = '';
+            }
+            // filter out current season
+            return !selectedSeason;
         }).forEach(item => {
+            // dim each item not selected
             item.style.opacity = 0.25;
-        });*/
+        });
     });
 });
