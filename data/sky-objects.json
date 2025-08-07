@@ -607,7 +607,7 @@
     "names": ["NGC 6720", "Ring Nebula"],
     "difficultyLevel": "Easy",
     "type": "Planetary nebula",
-    "image": "m57_2025_06_18_2025_08_04_merged_drizzle_merged_scaled.png",
+    "image": "m57_2025_06_18_2025_08_04_merged_drizzle_merged_reprocessed_scaled.png",
     "scope": "Astro Tech AT6RC",
     "lights": "25 @ 180 seconds + 75 @ 60 seconds",
     "camera": "ZWO ASI533mc pro",
