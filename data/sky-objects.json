@@ -1032,7 +1032,15 @@
     "magnitude": 7.4,
     "names": ["NGC 581"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m103_2025_09_15_drizzle_1x_merged_scaled_cropped.png",
+    "scope": "Orion Xt8i + onstep",
+    "lights": "567 out of 600 @ 2.5 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "svbony IR Cut",
+    "date": "2025/09/15"
 }, {
     "object": "M104",
     "bestViewTimes": "spring",
