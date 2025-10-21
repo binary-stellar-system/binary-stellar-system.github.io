@@ -318,7 +318,7 @@
     "names": ["NGC 221", "Andromeda Satellite #1"],
     "difficultyLevel": "Easy",
     "type": "Dwarf elliptical galaxy",
-    "image": "m32_2025_10_20_drizzle_merged.png",
+    "image": "m32_2025_10_20_drizzle_merged_cropped_scaled.png",
     "scope": "Orion Xt8i onstep converted",
     "lights": "547 out of 744 @ 5 seconds",
     "camera": "ZWO ASI533mc pro",
