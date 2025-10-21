@@ -318,14 +318,14 @@
     "names": ["NGC 221", "Andromeda Satellite #1"],
     "difficultyLevel": "Easy",
     "type": "Dwarf elliptical galaxy",
-    "image": "m32_2024_10_4h_45m_clipped.png",
-    "scope": "Astro Tech AT60ED + AT60FF (cropped from Andromeda)",
-    "lights": "283 @ 60 seconds",
+    "image": "m32_2025_10_20_drizzle_merged.png",
+    "scope": "Orion Xt8i onstep converted",
+    "lights": "547 out of 744 @ 5 seconds",
     "camera": "ZWO ASI533mc pro",
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2024/10/01-03"
+    "date":  "2025/10/20"
 }, {
     "object": "M33",
     "bestViewTimes": "autumn",
