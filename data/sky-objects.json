@@ -803,7 +803,15 @@
     "magnitude": 10.1,
     "names": ["NGC 650, NGC 651", "Little Dumbbell Nebula"],
     "difficultyLevel": "Moderate",
-    "type": "Planetary nebula"
+    "type": "Planetary nebula",
+    "image": "m76_2025_12_11_siril_stacked_merged_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "59 @ 180 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "SVBony CLS",
+    "date": "2025/12/11"
 }, {
     "object": "M77",
     "bestViewTimes": "autumn",
