@@ -854,7 +854,15 @@
     "magnitude": 6.9,
     "names": ["NGC 3031", "Bode's Galaxy"],
     "difficultyLevel": "Easy",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m81_2025_12_28_merged_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "68 @ 180 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "SVBony CLS",
+    "date": "2025/12/28"
 }, {
     "object": "M82",
     "bestViewTimes": "spring",
