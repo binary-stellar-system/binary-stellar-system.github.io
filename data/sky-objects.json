@@ -393,7 +393,15 @@
     "magnitude": 6.2,
     "names": ["NGC 2099", "Salt and Pepper Cluster"],
     "difficultyLevel": "Easy",
-    "type": "Open cluster"
+    "type": "Open cluster",
+    "image": "m37_2026_01_13_drizzle_1x_merged_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "123 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "SVBony CLS",
+    "date": "2026/01/13"
 }, {
     "object": "M38",
     "bestViewTimes": "winter",
@@ -505,7 +513,15 @@
     "camera": "ZWO ASI533mc pro",
     "gain": 101,
     "offset": 10,
+    "filter": "none",,
+    "image": "m78_2025_01_14_drizzle_1x_merged_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "95 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
     "filter": "none",
+    "date": "2025/01/14"
     "date": "2024/12/02 + 2024/12/03"
 }, {
     "object": "M46",
