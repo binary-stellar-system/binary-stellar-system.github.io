@@ -1,27 +1,47 @@
 
 				<achievement>Architected and executed a multi-version migration from React 15 to 18, modernizing legacy syntax and reconciling breaking changes across the entire dependency tree</achievement>
-				<achievement>Collaborated with cross-functional teams to deliver high-impact projects, including a comprehensive checkout funnel optimization and a complete overhaul of core product pages</achievement>
+				<achievement>Collaborated with cross-functional teams to deliver high-impact projects, including a comprehensive checkout funnel optimization a complete overhaul of core product pages</achievement>
 				<achievement>Optimized production applications to adhere to AKS memory constraints defined by the microservices and performance teams, resolving out-of-memory (OOM) errors</achievement>
-				<achievement>Containerized Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS)</achievement>
-				<achievement>Architected and implemented a Node.js/Express.js backend with Redis integration to efficiently render and deliver Sephora.com's HTML content, utilizing memoization and lazy fetching to optimize data retrieval</achievement>
+				<achievement>Containerized and managed Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS)</achievement>
+				<achievement>Architected and implemented the migration of large-scale rendering services from Java to a Node.js/Express.js backend with Redis integration to efficiently render and deliver Sephora.com's HTML content, utilizing memoization and lazy fetching to optimize data retrieval</achievement>
 			 	<achievement>I gained in-depth knowledge of Akamai configuration, uncovering areas for remediation and optimization in caching, as well as exploring the capabilities of Akamai EdgeWorkers and related cloudlets</achievement>
                 <achievement>I eliminated a memory leak within the Node.js render service, enabling long-term stability and extended uptimes of multiple months</achievement>
                 <achievement>Enhance the performance of the Node.js rendering pipeline through targeted optimization strategies, including profiling analysis, improved caching mechanisms, and worker thread implementation</achievement>
                 <achievement>Created custom metrics to monitor node performance, then implemented visualization dashboards in Splunk, Grafana, and Dynatrace, ensuring efficient tracking</achievement>
                 <achievement>Strategic UI domain architect for e-commerce platform enhancements, including product, community, and search functionalities, as well as shop, brand, online reservations, ADA compliance, loyalty programs, SEO for Canada and various other SEO optimizations and other project discoveries during my tenure at Sephora</achievement>
+                <achievement>Acted as a Domain Architect, leading project discovery and architectural planning for high-impact initiatives like SKU-level Certona recommendations and Responsive Web Design (RWD)</achievement>
+                <achievement>Optimized frontend performance by analyzing the relationship between backend response times and TTFB (Time to First Byte), implementing changes that reduced latency by 300ms–500ms</achievement>
+                <achievement>Managed critical upgrades (from Node 10.x through 24.x) and dependency migrations, including Express 4.x to 5.x and switching from child processes to worker threads for better concurrency</achievement>
+                
+                
+                Architectural Leadership: Acted as a Domain Architect, leading project discovery and architectural planning for high-impact initiatives like SKU-level Certona recommendations and Responsive Web Design (RWD).
 
 
-<achievement>Acted as a Domain Architect, leading project discovery and architectural planning for high-impact initiatives like SKU-level Certona recommendations and Responsive Web Design (RWD)</achievement>
-<achievement>Spearheaded research and proof-of-concept (POC) for migrating legacy systems to modern frameworks like Next.js and Node.js to improve performance and scalability</achievement>
-<achievement>Led the migration of large-scale rendering services from Java to node.js, ensuring a smooth transition of APIs and frontend logic</achievement>
-<achievement>Managed complex AKS (Azure Kubernetes Service) migrations, consolidating content applications into single clusters to streamline cloud operations</achievement>
-<achievement>Developed custom metrics and dashboards in Grafana, Splunk and Dynatrace to track Node.js render timings, memory usage, heap health and other metrics in real-time</achievement>
-<achievement>Optimized frontend performance by analyzing the relationship between backend response times and TTFB (Time to First Byte), implementing changes that reduced latency by 300ms–500ms</achievement>
-<achievement>Highly knowledgable in Akamai and edge computing, implementing complex cache-control headers, edge worker logic, and cache consolidation to reduce origin traffic and improve site speedImproved server-side processing speed by refactoring tree traversal logic to linear string traversal and enhancing HTML compression methods</achievement>
-<achievement>Managed critical upgrades (from Node 10.x through 24.x) and dependency migrations, including Express 4.x to 5.x and switching from child processes to worker threads for better concurrency</achievement>
-<achievement>Optimized build pipelines by refactoring Webpack configurations and implementing code-splitting strategies for smaller, faster-deploying application bundles</achievement>
-<achievement>Addressed critical security vulnerabilities, including Account Takeover (ATO) prevention, SameSite cookie implementation, and CCPA-compliant data purging strategies</achievement>
-<achievement>Designed and standardized JSON payloads and API endpoints (transitioning GET to PUT/POST) to support multi-platform consumers including iOS, Android, and Web</achievement>
-<achievement>Proven track record of troubleshooting high-stakes production bugs during peak traffic periods like Black Friday and Cyber Monday</achievement>
-<achievement>Demonstrated thought leadership by giving technical talks on Webpack and documenting complex system timings for cross-team alignment</achievement>
-<achievement>Actively participated in large-scale code reviews for complex PRs, ensuring high standards for new authentication implementations and AI-driven code instructions</achievement>
+Large-Scale Migration: Led the migration of large-scale rendering services from Java to Node.js, ensuring a smooth transition of APIs and frontend logic.
+
+
+Performance Optimization: Optimized frontend performance by analyzing the relationship between backend response times and TTFB (Time to First Byte), implementing changes that reduced latency by 300ms–500ms.
+
+
+Modernization & React Mastery: Architected and executed a multi-version migration from React 15 to 18, modernizing legacy syntax and reconciling breaking changes across the entire dependency tree.
+
+
+Infrastructure Management: Containerized Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS), specifically managing complex migrations to streamline cloud operations.
++1
+
+
+Observability & Monitoring: Developed custom metrics and dashboards in Grafana, Splunk, and Dynatrace to track Node.js render timings, memory usage, and heap health in real-time.
+
+
+Edge Computing Expertise: Implemented complex Akamai cache-control headers, edge worker logic, and cache consolidation to reduce origin traffic and improve site speed.
+
+
+Backend Efficiency: Architected and implemented a Node.js/Express.js backend with Redis integration, utilizing memoization and lazy fetching to optimize data retrieval for HTML content delivery.
+
+
+Security & Compliance: Addressed critical security vulnerabilities, including Account Takeover (ATO) prevention, SameSite cookie implementation, and CCPA-compliant data purging strategies.
+
+
+Critical Production Support: Proven track record of troubleshooting high-stakes production bugs and maintaining system stability during peak traffic periods like Black Friday and Cyber Monday.
+
+
