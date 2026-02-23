@@ -1,0 +1,29 @@
+Architectural Leadership: Acted as a Domain Architect, leading project discovery and architectural planning for high-impact initiatives like SKU-level Certona recommendations and Responsive Web Design (RWD).
+
+
+Large-Scale Migration: Led the migration of large-scale rendering services from Java to Node.js, ensuring a smooth transition of APIs and frontend logic.
+
+
+Performance Optimization: Optimized frontend performance by analyzing the relationship between backend response times and TTFB (Time to First Byte), implementing changes that reduced latency by 300ms–500ms.
+
+
+Modernization & React Mastery: Architected and executed a multi-version migration from React 15 to 18, modernizing legacy syntax and reconciling breaking changes across the entire dependency tree.
+
+
+Infrastructure Management: Containerized Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS), specifically managing complex migrations to streamline cloud operations.
++1
+
+
+Observability & Monitoring: Developed custom metrics and dashboards in Grafana, Splunk, and Dynatrace to track Node.js render timings, memory usage, and heap health in real-time.
+
+
+Edge Computing Expertise: Implemented complex Akamai cache-control headers, edge worker logic, and cache consolidation to reduce origin traffic and improve site speed.
+
+
+Backend Efficiency: Architected and implemented a Node.js/Express.js backend with Redis integration, utilizing memoization and lazy fetching to optimize data retrieval for HTML content delivery.
+
+
+Security & Compliance: Addressed critical security vulnerabilities, including Account Takeover (ATO) prevention, SameSite cookie implementation, and CCPA-compliant data purging strategies.
+
+
+Critical Production Support: Proven track record of troubleshooting high-stakes production bugs and maintaining system stability during peak traffic periods like Black Friday and Cyber Monday.
