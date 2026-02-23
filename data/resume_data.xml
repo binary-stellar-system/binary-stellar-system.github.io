@@ -89,6 +89,8 @@
 				</to>
 			</period>
             <achievements>
+				<achievement>Architected and executed a multi-version migration from React 15 to 18, modernizing legacy syntax and reconciling breaking changes across the entire dependency tree</achievement>
+				<achievement>Collaborated with cross-functional teams to deliver high-impact projects, including a comprehensive checkout funnel optimization and a complete overhaul of core product pages</achievement>
 				<achievement>Optimized production applications to adhere to AKS memory constraints defined by the microservices and performance teams, resolving out-of-memory (OOM) errors</achievement>
 				<achievement>Containerized Node.js applications with Docker and managed their deployment and scaling using Kubernetes on Azure (AKS)</achievement>
 				<achievement>Architected and implemented a Node.js/Express.js backend with Redis integration to efficiently render and deliver Sephora.com's HTML content, utilizing memoization and lazy fetching to optimize data retrieval</achievement>
