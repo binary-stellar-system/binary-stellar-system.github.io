@@ -1101,7 +1101,15 @@
     "magnitude": 8.4,
     "names": ["NGC 4258"],
     "difficultyLevel": "Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m106_2026_03_11_1x_drizzle_merged_scaled.png",
+    "scope": "Astro Tech AT60ED + AT60FF",
+    "lights": "30 @ 180 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/03/11"
 }, {
     "object": "M107",
     "bestViewTimes": "summer",
