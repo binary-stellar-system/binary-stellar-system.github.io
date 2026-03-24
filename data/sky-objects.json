@@ -1000,7 +1000,15 @@
     "magnitude": 9.7,
     "names": ["NGC 3351"],
     "difficultyLevel": "Hard",
-    "type": "Barred Spiral galaxy"
+    "type": "Barred Spiral galaxy",
+    "image": "m95_2026_03_23_siril_stacked_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "136 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/03/23"
 }, {
     "object": "M96",
     "bestViewTimes": "spring",
@@ -1103,7 +1111,7 @@
     "difficultyLevel": "Hard",
     "type": "Spiral galaxy",
     "image": "m106_2026_03_11_1x_drizzle_merged_scaled.png",
-    "scope": "Astro Tech AT60ED + AT60FF",
+    "scope": "Astro Tech AT6RC",
     "lights": "30 @ 180 seconds",
     "camera": "ZWO ASI533mc pro",
     "gain": 101,
