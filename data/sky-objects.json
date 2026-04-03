@@ -1102,7 +1102,15 @@
     "magnitude": 9.3,
     "names": ["NGC 3379"],
     "difficultyLevel": "Moderate",
-    "type": "Elliptical galaxy"
+    "type": "Elliptical galaxy",
+    "image": "m105_2025_04_02_siril_stacked_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "127 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "none",
+    "date": "2026/04/02"
 }, {
     "object": "M106",
     "bestViewTimes": "winter",
