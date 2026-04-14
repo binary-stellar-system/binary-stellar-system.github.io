@@ -1015,7 +1015,15 @@
     "magnitude": 9.2,
     "names": ["NGC 3368"],
     "difficultyLevel": "Moderate",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m96_2026_04_13_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "62 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/04/13"
 }, {
     "object": "M97",
     "bestViewTimes": "spring",
