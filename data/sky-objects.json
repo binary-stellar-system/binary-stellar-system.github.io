@@ -1059,7 +1059,15 @@
     "magnitude": 9.3,
     "names": ["NGC 4321", "Mirror Galaxy"],
     "difficultyLevel": "Very Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m100_2026_04_16_siril_stacked_merged_registered_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "121 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/04/16"
 }, {
     "object": "M101",
     "bestViewTimes": "spring",
