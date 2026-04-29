@@ -1045,7 +1045,15 @@
     "magnitude": 10.1,
     "names": ["NGC 4192"],
     "difficultyLevel": "Very Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m98_2026_04_28_siril_stacked_merged_croppedd.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "57 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/04/28"
 }, {
     "object": "M99",
     "bestViewTimes": "spring",
