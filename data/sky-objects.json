@@ -914,7 +914,15 @@
     "magnitude": 9.1,
     "names": ["NGC 4382"],
     "difficultyLevel": "Moderate",
-    "type": "Lenticular galaxy"
+    "type": "Lenticular galaxy",
+    "image": "m85_2026_05_15_siril_stacked_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "66 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/05/15"
 }, {
     "object": "M86",
     "bestViewTimes": "spring",
@@ -1060,7 +1068,15 @@
     "magnitude": 9.9,
     "names": ["NGC 4254", "St. Catherine’s Wheel"],
     "difficultyLevel": "Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m99_2026_05_13_siril_stacked_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "71 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date":  "2026/05/13"
 }, {
     "object": "M100",
     "bestViewTimes": "spring",
