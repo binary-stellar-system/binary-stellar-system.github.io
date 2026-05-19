@@ -958,7 +958,7 @@
     "camera": "ZWO ASI533mc pro",
     "gain": 101,
     "offset": 10,
-    filter": "zwo ir cut",
+    "filter": "zwo ir cut",
     "date": "2026/05/17"
 }, {
     "object": "M89",
