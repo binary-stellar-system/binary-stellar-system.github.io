@@ -951,7 +951,15 @@
     "magnitude": 9.6,
     "names": ["NGC 4501"],
     "difficultyLevel": "Moderate",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m88_2026_05_18_siril_stacked_no_flats_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "70 out of 80 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    filter": "zwo ir cut",
+    "date": "2026/05/17"
 }, {
     "object": "M89",
     "bestViewTimes": "spring",
