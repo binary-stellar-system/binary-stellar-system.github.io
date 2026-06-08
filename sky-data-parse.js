@@ -26,11 +26,13 @@ readInData().then(data => {
     }).map(({image, lights}) => {
          const filteredLights = lights.replace(/ out of [0-9]*/g, '')
                 .replace(/ seconds/g, '').replace(/\@/g, '*');
-         const totals = eval(filteredLights);
+         const totalsSeconds = eval(filteredLights);
+         const totalsMinutes = +Number(totalsSeconds / 60).toFixed(2);
          return {
              image,
              lights: filteredLights,
-             totals
+             totalsSeconds,
+             totalsMinutes
          };
     });
 
