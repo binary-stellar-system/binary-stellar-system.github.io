@@ -23,14 +23,15 @@ readInData().then(data => {
     
     const results = data.filter(item => {
         return (item.image && item.lights);
-    }).map(({image, lights}) => {
+    }).map(({image, lights, filter}) => {
          const filteredLights = lights.replace(/ out of [0-9]*/g, '')
                 .replace(/ seconds/g, '').replace(/\@/g, '*');
          const totalsSeconds = eval(filteredLights);
          const totalsMinutes = +Number(totalsSeconds / 60).toFixed(2);
          return {
              image,
-             lights: filteredLights,
+             filter,
+             //lights: filteredLights,
              totalsSeconds,
              totalsMinutes
          };
