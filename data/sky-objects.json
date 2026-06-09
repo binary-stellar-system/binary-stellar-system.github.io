@@ -988,7 +988,15 @@
     "magnitude": 10.2,
     "names": ["NGC 4548"],
     "difficultyLevel": "Very Hard",
-    "type": "Barred Spiral galaxy"
+    "type": "Barred Spiral galaxy",
+    "image": "m91_2026_06_06_siril_stacked_merged_89_of_93_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "89 out of 93 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date": "2026/06/06"
 }, {
     "object": "M92",
     "bestViewTimes": "summer",
