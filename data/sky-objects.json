@@ -981,7 +981,15 @@
     "magnitude": 9.5,
     "names": ["NGC 4569"],
     "difficultyLevel": "Hard",
-    "type": "Spiral galaxy"
+    "type": "Spiral galaxy",
+    "image": "m90_2026_06_09_siril_stacked_merged_cropped.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "70 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date": "2026/06/09"
 }, {
     "object": "M91",
     "bestViewTimes": "spring",
