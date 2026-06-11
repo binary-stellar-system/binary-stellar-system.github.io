@@ -952,7 +952,15 @@
     "magnitude": 8.6,
     "names": ["NGC 4486", "Virgo A or Smoking Gun Galaxy"],
     "difficultyLevel": "Moderate",
-    "type": "Elliptical galaxy"
+    "type": "Elliptical galaxy",
+    "image": "m87_2026_06_10_siril_stacked_bg_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "66 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date": "2026/06/10"
 }, {
     "object": "M88",
     "bestViewTimes": "spring",
