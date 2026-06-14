@@ -25,11 +25,14 @@
        }
        .WebWindowArea {
            background-color: white;
-       }
+            height: 250px;
+        }
        .WebWindowMain {
            border: 1px solid white; 
            width: 925px;
            margin: 0 auto;
+           width: 500px;
+           float: left;
        }
        #sound-container {
             text-align: left;
@@ -38,7 +41,16 @@
        #sound-container label {
            display: inline-block;
            width: 12em;
+       } 
+       #clock-window {
+            width: 450px;
        }
+        #analog-clock {
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 1.25em;
+        }
        </style>
     </head>
 <body>
@@ -102,6 +114,19 @@
             </div>
             <div class="WebWindowFooter">
                 Sound Player
+            </div>
+        </div>
+
+        <div id="clock-window" class="WebWindowMain">
+            <div class="WebWindowTitle">
+                Analog Clock
+            </div>
+            <div class="WebWindowArea">
+                <canvas  id="analog-clock">
+                </canvas>
+            </div>
+            <div class="WebWindowFooter">
+                Analog Clock
             </div>
         </div>
     </div>
