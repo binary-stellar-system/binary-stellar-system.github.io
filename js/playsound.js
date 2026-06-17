@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
      const canvasParent = document.getElementById('clock-parent-node');
      if (canvasParent) {
-          const clock = window.canvasRef.create('analog-clock', 'clock-parent-node', 200, 200);
+         const clock = window.canvasRef('analog-clock', 'clock-parent-node', 200, 200);
          if (clock) {
               clock.circle(100, 100, 90, {color: 'black' });
          }
