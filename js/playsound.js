@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
                 color: 'black'
             });
             clock.circle(x, y, 8, {
-                fillStrokeClear: 'black'
+                fillStrokeClear: 'black',
                 color: 'black'
             });
             for (let i = 0; i < 360; i += 15) {
