@@ -37,14 +37,18 @@ window.addEventListener('load', () => {
         if (clock) {
             const x = 100, 
 		y = 100,
-		size = 15;
+		size = 90;
             clock.circle(x, y, 90, {
+                color: 'black'
+            });
+            clock.circle(x, y, 8, {
+                fillStrokeClear: 'black'
                 color: 'black'
             });
             for (let i = 0; i < 360; i += 15) {
                 clock.line(x - size, y, x + size, y, {
                     rotateAngle: i,
-                    color: 'red'
+                    color: 'black'
                 });
             }
         }
