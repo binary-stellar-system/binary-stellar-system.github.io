@@ -1,9 +1,8 @@
-
 const getSelectValue = (selectObj) => {
 
-    if(!selectObj) {
+    if (!selectObj) {
         return undefined;
-    }  
+    }
     const option = selectObj.options[selectObj.selectedIndex];
     return option.value;
 }
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const octave = getSelectValue(document.getElementById('sound-octave'));
             const waveform = getSelectValue(document.getElementById('sound-waveform'));
             const duration = document.getElementById('sound-duration')?.value;
-            
+
             if (note && octave && waveform) {
                 const realNote = `${note.trim()}${sharpFlat?.trim()}`;
                 if (duration && duration.length > 0) {
@@ -32,11 +31,22 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('load', () => {
-     const canvasParent = document.getElementById('clock-parent-node');
-     if (canvasParent && window.canvasRef?.create) {
-          const clock = window.canvasRef.create('analog-clock', 'clock-parent-node', 200, 200);
-         if (clock) {
-              clock.circle(100, 100, 90, {color: 'black' });
-         }
-     }
+    const canvasParent = document.getElementById('clock-parent-node');
+    if (canvasParent && window.canvasRef?.create) {
+        const clock = window.canvasRef.create('analog-clock', 'clock-parent-node', 200, 200);
+        if (clock) {
+            const x = 100, 
+		y = 100,
+		size = 15;
+            clock.circle(x, y, 90, {
+                color: 'black'
+            });
+            for (let i = 0; i < 360; i += 15) {
+                clock.line(x - size, y, x + size, y, {
+                    rotateAngle: i,
+                    color: 'red'
+                });
+            }
+        }
+    }
 });
