@@ -46,10 +46,10 @@ window.addEventListener('load', () => {
                 color: 'black'
             });
             for (let i = 0; i < 360; i += 15) {
-                clock.line(x - size, y, x + 30, y, {
+                /*clock.line(x - size, y, x + 30, y, {
                     rotateAngle: i,
                     color: 'black'
-                });
+                });*/
             }
         }
     }
