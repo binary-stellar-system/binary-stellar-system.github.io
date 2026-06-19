@@ -38,19 +38,27 @@ window.addEventListener('load', () => {
             const x = 100, 
 		y = 100,
 		size = 90;
+            clock.rectangle(0, 0, 200, 200, {
+                fillStrokeClear: 'fill',
+                color: '#f5f5f5'
+            });
             clock.circle(x, y, 90, {
                 color: 'black'
+            });
+            for (let i = 0; i < 360; i += 15) {
+                clock.line(x - size, y, x + size, y, {
+                    rotateAngle: i,
+                    color: 'black'
+                });
+            }
+            clock.circle(x, y, size - 20, {
+                fillStrokeClear: 'fill',
+                color: '#f5f5f5'
             });
             clock.circle(x, y, 8, {
                 fillStrokeClear: 'fill',
                 color: 'black'
             });
-            for (let i = 0; i < 360; i += 15) {
-                /*clock.line(x - size, y, x + 30, y, {
-                    rotateAngle: i,
-                    color: 'black'
-                });*/
-            }
         }
     }
 });
