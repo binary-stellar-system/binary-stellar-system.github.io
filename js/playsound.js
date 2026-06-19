@@ -30,6 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+const drawTimeHands = clock => {
+
+	const now = new Date();
+
+	const secondsDivider = 360 / 60;
+	const minutesDivider = 360 / 60;
+	const hourDivider = 360 / 12;
+
+};
+
 window.addEventListener('load', () => {
     const canvasParent = document.getElementById('clock-parent-node');
     if (canvasParent && window.canvasRef?.create) {
@@ -45,17 +55,17 @@ window.addEventListener('load', () => {
             clock.circle(x, y, 90, {
                 color: 'black'
             });
-            for (let i = 0; i < 360; i += 15) {
+            for (let i = 0; i < 360; i += 30) {
                 clock.line(x - size, y, x + size, y, {
                     rotateAngle: i,
                     color: 'black'
                 });
             }
-            clock.circle(x, y, size - 20, {
+            clock.circle(x, y, size - 15, {
                 fillStrokeClear: 'fill',
                 color: '#f5f5f5'
             });
-            clock.circle(x, y, 8, {
+            clock.circle(x, y, 7, {
                 fillStrokeClear: 'fill',
                 color: 'black'
             });
