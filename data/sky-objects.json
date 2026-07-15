@@ -159,7 +159,15 @@
     "magnitude": 7.6,
     "names": ["NGC 6402"],
     "difficultyLevel": "Moderate",
-    "type": "Globular cluster"
+    "type": "Globular cluster",
+    "image": "m14_2026_07_14_siril_stacked_merged_scaled.png",
+    "scope": "Astro Tech AT6RC",
+    "lights": "69 out of 72 @ 60 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "zwo ir cut",
+    "date": "2026/06/14"
 }, {
     "object": "M15",
     "bestViewTimes": "autumn",
