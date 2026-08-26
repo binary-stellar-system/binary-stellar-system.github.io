@@ -1,5 +1,8 @@
 [{
-    "object": "M1",
+    "messier": "M1",
+    "ra": "05 34 31.8",
+    "dec": "+22 01 03",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 8.4,
     "names": ["NGC 1952", "Crab Nebula"],
@@ -14,7 +17,10 @@
     "filter": "none",
     "date": "2025/01/12"
 }, {
-    "object": "M2",
+    "messier": "M2",
+    "ra": "21 33 27.02",
+    "dec": "-00 49 23.7",
+    "v_mag": "6.25",
     "bestViewTimes": "autumn",
     "magnitude": 6.5,
     "names": ["NGC 7089"],
@@ -29,7 +35,10 @@
     "filter": "none",
     "date": "2024/08/31"
 }, {
-    "object": "M3",
+    "messier": "M3",
+    "ra": "13 42 11.62",
+    "dec": "+28 22 38.2",
+    "v_mag": "6.39",
     "bestViewTimes": "spring",
     "magnitude": 6.2,
     "names": ["NGC 5272"],
@@ -44,14 +53,20 @@
     "filter": "none",
     "date": "2025/04/13"
 }, {
-    "object": "M4",
+    "messier": "M4",
+    "ra": "16 23 35.22",
+    "dec": "-26 31 32.7",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 5.6,
     "names": ["NGC 6121", "Spider Globular"],
     "difficultyLevel": "Hard",
     "type": "Globular cluster"
 }, {
-    "object": "M5",
+    "messier": "M5",
+    "ra": "15 18 33.22",
+    "dec": "+02 04 51.7",
+    "v_mag": "5.95",
     "bestViewTimes": "summer",
     "magnitude": 5.6,
     "names": ["NGC 5904", "Rose Cluster"],
@@ -66,35 +81,50 @@
     "filter": "svbony IR Cut",
     "date": "2025/05/18"
 }, {
-    "object": "M6",
+    "messier": "M6",
+    "ra": "17 40 16.6",
+    "dec": "-32 14 31",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 4.2,
     "names": ["NGC 6405", "Butterfly Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M7",
+    "messier": "M7",
+    "ra": "17 53 47.3",
+    "dec": "-34 50 28",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 3.3,
     "names": ["NGC 6475", "Ptolemy's Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M8",
+    "messier": "M8",
+    "ra": "18 03 37",
+    "dec": "-24 23.2",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 4.6,
     "names": ["NGC 6523", "Lagoon Nebula"],
     "difficultyLevel": "Moderate",
     "type": "Nebula"
 }, {
-    "object": "M9",
+    "messier": "M9",
+    "ra": "17 19 11.78",
+    "dec": "-18 30 58.5",
+    "v_mag": "8.42",
     "bestViewTimes": "summer",
     "magnitude": 7.7,
     "names": ["NGC 6333"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M10",
+    "messier": "M10",
+    "ra": "16 57 09.05",
+    "dec": "-04 06 01.1",
+    "v_mag": "4.98",
     "bestViewTimes": "summer",
     "magnitude": 6.6,
     "names": ["NGC 6254"],
@@ -109,7 +139,10 @@
     "filter": "none",
     "date": "2024/06/17"
 }, {
-    "object": "M11",
+    "messier": "M11",
+    "ra": "18 51 03.8",
+    "dec": "-06 16 19",
+    "v_mag": "5.8",
     "bestViewTimes": "summer",
     "magnitude": 5.8,
     "names": ["NGC 6705", "Wild Duck Cluster"],
@@ -124,7 +157,10 @@
     "filter": "IR Cut",
     "date": "2025/08/28-29"
 }, {
-    "object": "M12",
+    "messier": "M12",
+    "ra": "16 47 14.18",
+    "dec": "-01 56 54.7",
+    "v_mag": "6.07",
     "bestViewTimes": "summer",
     "magnitude": 6.7,
     "names": ["NGC 6218"],
@@ -139,7 +175,10 @@
     "filter": "none",
     "date": "2024/06/04"
 }, {
-    "object": "M13",
+    "messier": "M13",
+    "ra": "16 41 41.634",
+    "dec": "+36 27 40.75",
+    "v_mag": "5.8",
     "bestViewTimes": "summer",
     "magnitude": 5.8,
     "names": ["NGC 6205", "Great Hercules Cluster"],
@@ -154,7 +193,10 @@
     "filter": "none",
     "date": "2024/05/30"
 }, {
-    "object": "M14",
+    "messier": "M14",
+    "ra": "17 37 36.15",
+    "dec": "-03 14 45.3",
+    "v_mag": "5.73",
     "bestViewTimes": "summer",
     "magnitude": 7.6,
     "names": ["NGC 6402"],
@@ -169,7 +211,10 @@
     "filter": "zwo ir cut",
     "date": "2026/06/14"
 }, {
-    "object": "M15",
+    "messier": "M15",
+    "ra": "21 29 58.33",
+    "dec": "+12 10 01.2",
+    "v_mag": "--",
     "bestViewTimes": "autumn",
     "magnitude": 6.2,
     "names": ["NGC 7078", "Great Pegasus Cluster"],
@@ -182,9 +227,12 @@
     "gain": 50,
     "offset": 80,
     "filter": "None",
-    "date":  "2024/08/30"
+    "date": "2024/08/30"
 }, {
-    "object": "M16",
+    "messier": "M16",
+    "ra": "18 18 45.1",
+    "dec": "-13 47 31",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6.4,
     "names": ["NGC 6611", "Eagle Nebula"],
@@ -199,77 +247,110 @@
     "filter": "zwo ir cut",
     "date": "2026/06/15"
 }, {
-    "object": "M17",
+    "messier": "M17",
+    "ra": "18 20 47",
+    "dec": "-16 10.3",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6,
     "names": ["NGC 6618", "Omega, Swan, Horseshoe, Lobster, or Checkmark Nebula"],
     "difficultyLevel": "Easy",
     "type": "H II region"
 }, {
-    "object": "M18",
+    "messier": "M18",
+    "ra": "18 19 57",
+    "dec": "-17 05.3",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.5,
     "names": ["NGC 6613", "Black Swan Cluster"],
     "difficultyLevel": "Moderate",
     "type": "Open cluster"
 }, {
-    "object": "M19",
+    "messier": "M19",
+    "ra": "17 02 37.69",
+    "dec": "-26 16 04.6",
+    "v_mag": "5.57",
     "bestViewTimes": "summer",
     "magnitude": 6.8,
     "names": ["NGC 6273"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M20",
+    "messier": "M20",
+    "ra": "18 02 42",
+    "dec": "-22 58.3",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6.3,
     "names": ["NGC 6514", "Trifid Nebula"],
     "difficultyLevel": "Very Hard",
     "type": "H II region"
 }, {
-    "object": "M21",
+    "messier": "M21",
+    "ra": "18 04 08.6",
+    "dec": "-22 30 18",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6.5,
     "names": ["NGC 6531", "Webb's Cross Cluster"],
     "difficultyLevel": "Moderate",
     "type": "Open cluster"
 }, {
-    "object": "M22",
+    "messier": "M22",
+    "ra": "18 36 23.94",
+    "dec": "-23 54 17.1",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 5.1,
     "names": ["NGC 6656", "Great Sagittarius Cluster"],
     "difficultyLevel": "Very Easy",
     "type": "Globular cluster"
 }, {
-    "object": "M23",
+    "messier": "M23",
+    "ra": "17 56 56.9",
+    "dec": "-18 59 13",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 5.5,
     "names": ["NGC 6494"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M24",
+    "messier": "M24",
+    "ra": "18 16.8",
+    "dec": "-18 33",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 2.5,
     "names": ["IC 4715", "Small Sagittarius Star Cloud"],
     "difficultyLevel": "Moderate",
     "type": "Milky Way"
 }, {
-    "object": "M25",
+    "messier": "M25",
+    "ra": "18 31 44.9",
+    "dec": "-19 06 50",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 4.6,
     "names": ["IC 4725"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M26",
+    "messier": "M26",
+    "ra": "18 45 16.1",
+    "dec": "-09 23 10",
+    "v_mag": "8.87",
     "bestViewTimes": "summer",
     "magnitude": 8,
     "names": ["NGC 6694"],
     "difficultyLevel": "Moderate",
     "type": "Open cluster"
 }, {
-    "object": "M27",
+    "messier": "M27",
+    "ra": "19 59 36.3631",
+    "dec": "+22 43 16.312",
+    "v_mag": "14.089",
     "bestViewTimes": "summer",
     "magnitude": 7.4,
     "names": ["NGC 6853", "Dumbbell Nebula"],
@@ -282,16 +363,22 @@
     "gain": 50,
     "offset": 40,
     "filter": "none",
-    "date":  "2024/07/19"
+    "date": "2024/07/19"
 }, {
-    "object": "M28",
+    "messier": "M28",
+    "ra": "18 24 32.89",
+    "dec": "-24 52 11.4",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6.8,
     "names": ["NGC 6626"],
     "difficultyLevel": "Easy",
     "type": "Globular cluster"
 }, {
-    "object": "M29",
+    "messier": "M29",
+    "ra": "20 23 46",
+    "dec": "+38 29.2",
+    "v_mag": "6.6",
     "bestViewTimes": "summer",
     "magnitude": 7.1,
     "names": ["NGC 6913", "Cooling Tower"],
@@ -304,16 +391,22 @@
     "gain": 50,
     "offset": 80,
     "filter": "CLS",
-    "date":  "2024/08/15"
+    "date": "2024/08/15"
 }, {
-    "object": "M30",
+    "messier": "M30",
+    "ra": "21 40 22.12",
+    "dec": "-23 10 47.5",
+    "v_mag": "7.1",
     "bestViewTimes": "summer",
     "magnitude": 7.2,
     "names": ["NGC 7099", "Jellyfish Cluster"],
     "difficultyLevel": "Easy",
     "type": "Globular cluster"
 }, {
-    "object": "M31",
+    "messier": "M31",
+    "ra": "00 42 44.330",
+    "dec": "+41 16 07.50",
+    "v_mag": "3.44",
     "bestViewTimes": "autumn",
     "magnitude": 3.4,
     "names": ["NGC 224", "Andromeda Galaxy"],
@@ -326,9 +419,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2024/10/01-03"
+    "date": "2024/10/01-03"
 }, {
-    "object": "M32",
+    "messier": "M32",
+    "ra": "00 42 41.8248",
+    "dec": "+40 51 54.612",
+    "v_mag": "8.08",
     "bestViewTimes": "autumn",
     "magnitude": 8.1,
     "names": ["NGC 221", "Andromeda Satellite #1"],
@@ -341,9 +437,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2025/10/20"
+    "date": "2025/10/20"
 }, {
-    "object": "M33",
+    "messier": "M33",
+    "ra": "01 33 50.8965",
+    "dec": "+30 39 36.630",
+    "v_mag": "5.72",
     "bestViewTimes": "autumn",
     "magnitude": 5.7,
     "names": ["NGC 598", "Triangulum/Pinwheel Galaxy"],
@@ -358,7 +457,10 @@
     "filter": "none",
     "date": "2024/10/22 + 2024/10/23 + 2024/10/24"
 }, {
-    "object": "M34",
+    "messier": "M34",
+    "ra": "02 42 07.4",
+    "dec": "+42 43 19",
+    "v_mag": "--",
     "bestViewTimes": "autumn",
     "magnitude": 5.5,
     "names": ["NGC 1039", "Spiral Cluster"],
@@ -372,9 +474,11 @@
     "offset": 10,
     "filter": "none",
     "date": "2024/11/02"
-
 }, {
-    "object": "M35",
+    "messier": "M35",
+    "ra": "06 09 05.3",
+    "dec": "+24 20 10",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 5.3,
     "names": ["NGC 2168", "Shoe-Buckle Cluster"],
@@ -389,7 +493,10 @@
     "filter": "none",
     "date": "2024/12/05"
 }, {
-    "object": "M36",
+    "messier": "M36",
+    "ra": "05 36 20.2",
+    "dec": "+34 08 06",
+    "v_mag": "6.0",
     "bestViewTimes": "winter",
     "magnitude": 6.3,
     "names": ["NGC 1960", "Pinwheel Cluster"],
@@ -404,7 +511,10 @@
     "filter": "none",
     "date": "2024/12/09"
 }, {
-    "object": "M37",
+    "messier": "M37",
+    "ra": "05 52 17.8",
+    "dec": "+32 32 42",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 6.2,
     "names": ["NGC 2099", "Salt and Pepper Cluster"],
@@ -419,7 +529,10 @@
     "filter": "SVBony CLS",
     "date": "2026/01/13"
 }, {
-    "object": "M38",
+    "messier": "M38",
+    "ra": "05 28 40.1",
+    "dec": "+35 49 26",
+    "v_mag": "6.4",
     "bestViewTimes": "winter",
     "magnitude": 7.4,
     "names": ["NGC 1912", "Starfish Cluster"],
@@ -434,7 +547,10 @@
     "filter": "none",
     "date": "2024/12/08"
 }, {
-    "object": "M39",
+    "messier": "M39",
+    "ra": "21 31 33.4",
+    "dec": "+48 14 49",
+    "v_mag": "--",
     "bestViewTimes": "autumn",
     "magnitude": 4.6,
     "names": ["NGC 7092"],
@@ -447,13 +563,15 @@
     "gain": 50,
     "offset": 80,
     "filter": "none",
-    "date":  "2024/08/16"
-
+    "date": "2024/08/16"
 }, {
-    "object": "M40",
+    "messier": "M40",
+    "ra": "12 22.2",
+    "dec": "+58 05",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 8.4,
-    "names": ["Winnecke-4", "HD 238107 and HD 238108" ],
+    "names": ["Winnecke-4", "HD 238107 and HD 238108"],
     "difficultyLevel": "Easy",
     "type": "(Binary) Star System",
     "image": "m40_2025_05_18_drizzle_1x_merged_cropped.png",
@@ -465,14 +583,20 @@
     "filter": "svbony IR Cut",
     "date": "2025/05/18"
 }, {
-    "object": "M41",
+    "messier": "M41",
+    "ra": "06 45 59.8",
+    "dec": "-20 42 58",
+    "v_mag": "4.5",
     "bestViewTimes": "winter",
     "magnitude": 4.5,
     "names": ["NGC 2287", "Little Beehive Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M42",
+    "messier": "M42",
+    "ra": "05 35 16.8",
+    "dec": "-05 23 15",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 4,
     "names": ["NGC 1976", "Great Orion Nebula"],
@@ -487,7 +611,10 @@
     "filter": "none",
     "date": "2025/01/09"
 }, {
-    "object": "M43",
+    "messier": "M43",
+    "ra": "05 35 31",
+    "dec": "-05 16.2",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 9,
     "names": ["NGC 1982", "De Mairan's Nebula"],
@@ -502,7 +629,10 @@
     "filter": "none",
     "date": "2025/01/09"
 }, {
-    "object": "M44",
+    "messier": "M44",
+    "ra": "08 40 13.0",
+    "dec": "+19 37 16",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 3.7,
     "names": ["NGC 2632", "Beehive Cluster or Praesepe"],
@@ -517,7 +647,10 @@
     "filter": "none",
     "date": "2025/02/09"
 }, {
-    "object": "M45",
+    "messier": "M45",
+    "ra": "03 46 24.2",
+    "dec": "+24 06 50",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 1.6,
     "names": ["Pleiades, Seven Sisters or Subaru"],
@@ -532,42 +665,60 @@
     "filter": "none",
     "date": "2024/12/02 + 2024/12/03"
 }, {
-    "object": "M46",
+    "messier": "M46",
+    "ra": "07 41 46.8",
+    "dec": "-14 50 38",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 6,
     "names": ["NGC 2437"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M47",
+    "messier": "M47",
+    "ra": "07 36 35.3",
+    "dec": "-14 29 20",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 4.4,
     "names": ["NGC 2422"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M48",
+    "messier": "M48",
+    "ra": "08 13 38.9",
+    "dec": "-05 43 34",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 5.5,
     "names": ["NGC 2548"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M49",
+    "messier": "M49",
+    "ra": "12 29 46.8",
+    "dec": "+08 00 01",
+    "v_mag": "12.17",
     "bestViewTimes": "spring",
     "magnitude": 8.4,
     "names": ["NGC 4472"],
     "difficultyLevel": "Moderate",
     "type": "Elliptical galaxy"
 }, {
-    "object": "M50",
+    "messier": "M50",
+    "ra": "07 02 44.2",
+    "dec": "-08 21 54",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 5.9,
     "names": ["NGC 2323", "Heart-Shaped Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M51",
+    "messier": "M51",
+    "ra": "13 29 52.698",
+    "dec": "+47 11 42.93",
+    "v_mag": "8.36",
     "bestViewTimes": "spring",
     "magnitude": 8.4,
     "names": ["NGC 5194", "NGC_5195", "NGC 5195", "Whirlpool Galaxy"],
@@ -580,9 +731,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2024/08/21"
+    "date": "2024/08/21"
 }, {
-    "object": "M52",
+    "messier": "M52",
+    "ra": "23 24 46.8",
+    "dec": "+61 35 24",
+    "v_mag": "--",
     "bestViewTimes": "autumn",
     "magnitude": 7.3,
     "names": ["NGC 7654", "Scorpion Cluster"],
@@ -595,9 +749,12 @@
     "gain": 50,
     "offset": 80,
     "filter": "none",
-    "date":  "2024/08/20"
+    "date": "2024/08/20"
 }, {
-    "object": "M53",
+    "messier": "M53",
+    "ra": "13 12 55.25",
+    "dec": "+18 10 05.4",
+    "v_mag": "7.79",
     "bestViewTimes": "spring",
     "magnitude": 7.6,
     "names": ["NGC 5024"],
@@ -612,21 +769,30 @@
     "filter": "svbony IR Cut",
     "date": "2025/05/20"
 }, {
-    "object": "M54",
+    "messier": "M54",
+    "ra": "18 55 03.33",
+    "dec": "-30 28 47.5",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.6,
     "names": ["NGC 6715"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M55",
+    "messier": "M55",
+    "ra": "19 39 59.71",
+    "dec": "-30 57 53.1",
+    "v_mag": "6.49",
     "bestViewTimes": "summer",
     "magnitude": 6.3,
     "names": ["NGC 6809", "Specter Cluster"],
     "difficultyLevel": "Hard",
     "type": "Globular cluster"
 }, {
-    "object": "M56",
+    "messier": "M56",
+    "ra": "19 16 35.57",
+    "dec": "+30 11 00.5",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 8.3,
     "names": ["NGC 6779"],
@@ -641,7 +807,10 @@
     "filter": "none",
     "date": "2025/08/27"
 }, {
-    "object": "M57",
+    "messier": "M57",
+    "ra": "18 53 35.0967",
+    "dec": "+33 01 44.883",
+    "v_mag": "15.769",
     "bestViewTimes": "summer",
     "magnitude": 8.8,
     "names": ["NGC 6720", "Ring Nebula"],
@@ -656,42 +825,60 @@
     "filter": "none",
     "date": "2025/06/18 & 2025/08/04"
 }, {
-    "object": "M58",
+    "messier": "M58",
+    "ra": "12 37 43.5974",
+    "dec": "+11 49 05.124",
+    "v_mag": "9.66",
     "bestViewTimes": "spring",
     "magnitude": 9.7,
     "names": ["NGC 4579"],
     "difficultyLevel": "Moderate",
     "type": "Barred Spiral galaxy"
 }, {
-    "object": "M59",
+    "messier": "M59",
+    "ra": "12 42 02.2581",
+    "dec": "+11 38 48.909",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 9.6,
     "names": ["NGC 4621"],
     "difficultyLevel": "Hard",
     "type": "Elliptical galaxy"
 }, {
-    "object": "M60",
+    "messier": "M60",
+    "ra": "12 43 39.9708",
+    "dec": "+11 33 09.688",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 8.8,
     "names": ["NGC 4649"],
     "difficultyLevel": "Moderate",
     "type": "Elliptical galaxy"
 }, {
-    "object": "M61",
+    "messier": "M61",
+    "ra": "12 21 54.9282",
+    "dec": "+04 28 25.597",
+    "v_mag": "9.65",
     "bestViewTimes": "spring",
     "magnitude": 9.7,
     "names": ["NGC 4303", "Swelling Spiral"],
     "difficultyLevel": "Hard",
     "type": "Spiral galaxy"
 }, {
-    "object": "M62",
+    "messier": "M62",
+    "ra": "17 01 12.60",
+    "dec": "-30 06 44.5",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 6.5,
     "names": ["NGC 6266", "Flickering Globular"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M63",
+    "messier": "M63",
+    "ra": "13 15 49.2741",
+    "dec": "+42 01 45.728",
+    "v_mag": "8.59",
     "bestViewTimes": "spring",
     "magnitude": 8.6,
     "names": ["NGC 5055", "Sunflower Galaxy"],
@@ -706,14 +893,20 @@
     "filter": "zwo ir cut",
     "date": "2026/05/31"
 }, {
-    "object": "M64",
+    "messier": "M64",
+    "ra": "12 56 43.696",
+    "dec": "+21 40 57.57",
+    "v_mag": "8.52",
     "bestViewTimes": "spring",
     "magnitude": 8.5,
     "names": ["NGC 4826", "Black Eye Galaxy"],
     "difficultyLevel": "Moderate",
     "type": "Spiral galaxy"
 }, {
-    "object": "M65",
+    "messier": "M65",
+    "ra": "11 18 55.9084",
+    "dec": "+13 05 32.300",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 9.3,
     "names": ["NGC 3623", "Leo Triplet"],
@@ -726,9 +919,12 @@
     "gain": 450,
     "offset": 100,
     "filter": "svbony IR Cut",
-    "date":  "2025/103/14"
+    "date": "2025/103/14"
 }, {
-    "object": "M66",
+    "messier": "M66",
+    "ra": "11 20 15.0",
+    "dec": "+12 59 29",
+    "v_mag": "8.92",
     "bestViewTimes": "spring",
     "magnitude": 8.9,
     "names": ["NGC 3627", "Leo Triplet"],
@@ -741,9 +937,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "svbony IR Cut",
-    "date":  "2025/03/24"
+    "date": "2025/03/24"
 }, {
-    "object": "M67",
+    "messier": "M67",
+    "ra": "08 51 23.0",
+    "dec": "+11 48 50",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 6.1,
     "names": ["NGC 2682", "King Cobra Cluster"],
@@ -756,30 +955,42 @@
     "gain": 350,
     "offset": 50,
     "filter": "svbony IR Cut",
-    "date":  "2025/03/08"
+    "date": "2025/03/08"
 }, {
-    "object": "M68",
+    "messier": "M68",
+    "ra": "12 39 27.98",
+    "dec": "-26 44 38.6",
+    "v_mag": "7.96",
     "bestViewTimes": "spring",
     "magnitude": 7.8,
     "names": ["NGC 4590"],
     "difficultyLevel": "Very Hard",
     "type": "Globular cluster"
 }, {
-    "object": "M69",
+    "messier": "M69",
+    "ra": "18 31 23.10",
+    "dec": "-32 20 53.1",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.6,
     "names": ["NGC 6637"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M70",
+    "messier": "M70",
+    "ra": "18 43 12.76",
+    "dec": "-32 17 31.6",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.9,
     "names": ["NGC 6681"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M71",
+    "messier": "M71",
+    "ra": "19 53 46.49",
+    "dec": "+18 46 45.1",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 8.2,
     "names": ["NGC 6838", "Angelfish Cluster"],
@@ -792,23 +1003,32 @@
     "gain": 50,
     "offset": 80,
     "filter": "none",
-    "date":  "2024/08/19"
+    "date": "2024/08/19"
 }, {
-    "object": "M72",
+    "messier": "M72",
+    "ra": "20 53 27.70",
+    "dec": "-12 32 14.3",
+    "v_mag": "8.96",
     "bestViewTimes": "summer",
     "magnitude": 9.3,
     "names": ["NGC 6981"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M73",
+    "messier": "M73",
+    "ra": "20 59.0",
+    "dec": "-12 38",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 9,
     "names": ["NGC 6994"],
     "difficultyLevel": "Hard",
     "type": "Asterism"
 }, {
-    "object": "M74",
+    "messier": "M74",
+    "ra": "01 36 41.7451",
+    "dec": "+15 47 01.107",
+    "v_mag": "9.46",
     "bestViewTimes": "autumn",
     "magnitude": 9.4,
     "names": ["NGC 628", "Phantom Galaxy"],
@@ -823,14 +1043,20 @@
     "filter": "none",
     "date": "2024/11/27 & 2025/01/15"
 }, {
-    "object": "M75",
+    "messier": "M75",
+    "ra": "20 06 04.841",
+    "dec": "-21 55 20.14",
+    "v_mag": "8.26",
     "bestViewTimes": "summer",
     "magnitude": 8.5,
     "names": ["NGC 6864"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M76",
+    "messier": "M76",
+    "ra": "01 42 19.6557",
+    "dec": "+51 34 31.534",
+    "v_mag": "17.48",
     "bestViewTimes": "autumn",
     "magnitude": 10.1,
     "names": ["NGC 650, NGC 651", "Little Dumbbell Nebula"],
@@ -845,7 +1071,10 @@
     "filter": "SVBony CLS",
     "date": "2025/12/11"
 }, {
-    "object": "M77",
+    "messier": "M77",
+    "ra": "02 42 40.7091",
+    "dec": "-00 00 47.859",
+    "v_mag": "8.87",
     "bestViewTimes": "autumn",
     "magnitude": 8.9,
     "names": ["NGC 1068", "Cetus A or Squid Galaxy"],
@@ -860,7 +1089,10 @@
     "filter": "SVBony CLS",
     "date": "2025/12/29"
 }, {
-    "object": "M78",
+    "messier": "M78",
+    "ra": "05 46 45.8",
+    "dec": "+00 04 45",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 8.3,
     "names": ["NGC 2068", "Casper the Friendly Ghost Nebula"],
@@ -875,21 +1107,30 @@
     "filter": "none",
     "date": "2025/01/14"
 }, {
-    "object": "M79",
+    "messier": "M79",
+    "ra": "05 24 10.59",
+    "dec": "-24 31 27.3",
+    "v_mag": "8.16",
     "bestViewTimes": "winter",
     "magnitude": 7.7,
     "names": ["NGC 1904"],
     "difficultyLevel": "Moderate",
     "type": "Globular cluster"
 }, {
-    "object": "M80",
+    "messier": "M80",
+    "ra": "16 17 02.41",
+    "dec": "-22 58 33.9",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.3,
     "names": ["NGC 6093"],
     "difficultyLevel": "Easy",
     "type": "Globular cluster"
 }, {
-    "object": "M81",
+    "messier": "M81",
+    "ra": "09 55 33.1726",
+    "dec": "+69 03 55.062",
+    "v_mag": "6.94",
     "bestViewTimes": "spring",
     "magnitude": 6.9,
     "names": ["NGC 3031", "Bode's Galaxy"],
@@ -904,7 +1145,10 @@
     "filter": "SVBony CLS",
     "date": "2025/12/28"
 }, {
-    "object": "M82",
+    "messier": "M82",
+    "ra": "09 55 52.430",
+    "dec": "+69 40 46.93",
+    "v_mag": "8.41",
     "bestViewTimes": "spring",
     "magnitude": 8.4,
     "names": ["NGC 3034", "Cigar Galaxy"],
@@ -919,21 +1163,30 @@
     "filter": "none",
     "date": "2025/04/12"
 }, {
-    "object": "M83",
+    "messier": "M83",
+    "ra": "13 37 00.9192",
+    "dec": "-29 51 56.740",
+    "v_mag": "7.52",
     "bestViewTimes": "spring",
     "magnitude": 7.6,
     "names": ["NGC 5236", "Southern Pinwheel Galaxy"],
     "difficultyLevel": "Hard",
     "type": "Barred Spiral galaxy"
 }, {
-    "object": "M84",
+    "messier": "M84",
+    "ra": "12 25 03.7433",
+    "dec": "+12 53 13.139",
+    "v_mag": "10.49",
     "bestViewTimes": "spring",
     "magnitude": 9.1,
     "names": ["NGC 4374"],
     "difficultyLevel": "Moderate",
     "type": "Lenticular galaxy"
 }, {
-    "object": "M85",
+    "messier": "M85",
+    "ra": "12 25 24.053",
+    "dec": "+18 11 27.89",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 9.1,
     "names": ["NGC 4382"],
@@ -946,9 +1199,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/05/15"
+    "date": "2026/05/15"
 }, {
-    "object": "M86",
+    "messier": "M86",
+    "ra": "12 26 11.814",
+    "dec": "+12 56 45.49",
+    "v_mag": "8.9",
     "bestViewTimes": "spring",
     "magnitude": 8.9,
     "names": ["NGC 4406"],
@@ -963,7 +1219,10 @@
     "filter": "none",
     "date": "2025/04/13"
 }, {
-    "object": "M87",
+    "messier": "M87",
+    "ra": "12 30 49.4233",
+    "dec": "+12 23 28.043",
+    "v_mag": "8.63",
     "bestViewTimes": "spring",
     "magnitude": 8.6,
     "names": ["NGC 4486", "Virgo A or Smoking Gun Galaxy"],
@@ -978,7 +1237,10 @@
     "filter": "zwo ir cut",
     "date": "2026/06/10"
 }, {
-    "object": "M88",
+    "messier": "M88",
+    "ra": "12 31 59.1525",
+    "dec": "+14 25 13.148",
+    "v_mag": "13.18",
     "bestViewTimes": "spring",
     "magnitude": 9.6,
     "names": ["NGC 4501"],
@@ -993,14 +1255,20 @@
     "filter": "zwo ir cut",
     "date": "2026/05/17"
 }, {
-    "object": "M89",
+    "messier": "M89",
+    "ra": "12 35 39.8073",
+    "dec": "+12 33 22.830",
+    "v_mag": "9.75",
     "bestViewTimes": "spring",
     "magnitude": 9.8,
     "names": ["NGC 4552"],
     "difficultyLevel": "Moderate",
     "type": "Elliptical galaxy"
 }, {
-    "object": "M90",
+    "messier": "M90",
+    "ra": "12 36 49.8009",
+    "dec": "+13 09 46.523",
+    "v_mag": "9.54",
     "bestViewTimes": "spring",
     "magnitude": 9.5,
     "names": ["NGC 4569"],
@@ -1015,7 +1283,10 @@
     "filter": "zwo ir cut",
     "date": "2026/06/09"
 }, {
-    "object": "M91",
+    "messier": "M91",
+    "ra": "12 35 26.4446",
+    "dec": "+14 29 46.760",
+    "v_mag": "13.57",
     "bestViewTimes": "spring",
     "magnitude": 10.2,
     "names": ["NGC 4548"],
@@ -1030,7 +1301,10 @@
     "filter": "zwo ir cut",
     "date": "2026/06/06"
 }, {
-    "object": "M92",
+    "messier": "M92",
+    "ra": "17 17 07.39",
+    "dec": "+43 08 09.4",
+    "v_mag": "6.52",
     "bestViewTimes": "summer",
     "magnitude": 6.4,
     "names": ["NGC 6341"],
@@ -1045,21 +1319,30 @@
     "filter": "svbony IR Cut",
     "date": "2025/06/17"
 }, {
-    "object": "M93",
+    "messier": "M93",
+    "ra": "07 44 33.8",
+    "dec": "-23 51 11",
+    "v_mag": "--",
     "bestViewTimes": "winter",
     "magnitude": 6,
     "names": ["NGC 2447", "Critter Cluster"],
     "difficultyLevel": "Easy",
     "type": "Open cluster"
 }, {
-    "object": "M94",
+    "messier": "M94",
+    "ra": "12 50 53.0737",
+    "dec": "+41 07 12.900",
+    "v_mag": "8.24",
     "bestViewTimes": "spring",
     "magnitude": 8.2,
     "names": ["NGC 4736", "Crocodile Eye or Cat's Eye Galaxy"],
     "difficultyLevel": "Moderate",
     "type": "Spiral galaxy"
 }, {
-    "object": "M95",
+    "messier": "M95",
+    "ra": "10 43 57.7313",
+    "dec": "+11 42 13.301",
+    "v_mag": "9.73",
     "bestViewTimes": "spring",
     "magnitude": 9.7,
     "names": ["NGC 3351"],
@@ -1072,9 +1355,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/03/23"
+    "date": "2026/03/23"
 }, {
-    "object": "M96",
+    "messier": "M96",
+    "ra": "10 46 45.744",
+    "dec": "+11 49 11.78",
+    "v_mag": "9.25",
     "bestViewTimes": "spring",
     "magnitude": 9.2,
     "names": ["NGC 3368"],
@@ -1087,9 +1373,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/04/13"
+    "date": "2026/04/13"
 }, {
-    "object": "M97",
+    "messier": "M97",
+    "ra": "11 14 47.7122",
+    "dec": "+55 01 08.482",
+    "v_mag": "15.777",
     "bestViewTimes": "spring",
     "magnitude": 9.9,
     "names": ["NGC 3587", "Owl Nebula"],
@@ -1102,9 +1391,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "ZWO IR Cut",
-    "date":  "2026/03/08"
+    "date": "2026/03/08"
 }, {
-    "object": "M98",
+    "messier": "M98",
+    "ra": "12 13 48.2910",
+    "dec": "+14 54 01.953",
+    "v_mag": "10.14",
     "bestViewTimes": "spring",
     "magnitude": 10.1,
     "names": ["NGC 4192"],
@@ -1117,9 +1409,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/04/28"
+    "date": "2026/04/28"
 }, {
-    "object": "M99",
+    "messier": "M99",
+    "ra": "12 18 49.625",
+    "dec": "+14 24 59.36",
+    "v_mag": "9.87",
     "bestViewTimes": "spring",
     "magnitude": 9.9,
     "names": ["NGC 4254", "St. Catherine’s Wheel"],
@@ -1132,9 +1427,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/05/13"
+    "date": "2026/05/13"
 }, {
-    "object": "M100",
+    "messier": "M100",
+    "ra": "12 22 54.9299",
+    "dec": "+15 49 20.296",
+    "v_mag": "9.35",
     "bestViewTimes": "spring",
     "magnitude": 9.3,
     "names": ["NGC 4321", "Mirror Galaxy"],
@@ -1147,9 +1445,12 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/04/16"
+    "date": "2026/04/16"
 }, {
-    "object": "M101",
+    "messier": "M101",
+    "ra": "14 03 12.583",
+    "dec": "+54 20 55.50",
+    "v_mag": "7.86",
     "bestViewTimes": "spring",
     "magnitude": 7.9,
     "names": ["NGC 5457", "Pinwheel Galaxy"],
@@ -1162,16 +1463,22 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2025/05/08"
+    "date": "2025/05/08"
 }, {
-    "object": "M102",
+    "messier": "M102",
+    "ra": "15 06 29.561",
+    "dec": "+55 45 47.91",
+    "v_mag": "9.89",
     "bestViewTimes": "summer",
     "magnitude": 9.9,
     "names": ["NGC 5866", "Spindle Galaxy"],
     "difficultyLevel": "Hard",
     "type": "Lenticular galaxy"
 }, {
-    "object": "M103",
+    "messier": "M103",
+    "ra": "01 33 21.4",
+    "dec": "+60 39 32",
+    "v_mag": "7.4",
     "bestViewTimes": "autumn",
     "magnitude": 7.4,
     "names": ["NGC 581"],
@@ -1186,14 +1493,20 @@
     "filter": "svbony IR Cut",
     "date": "2025/09/15"
 }, {
-    "object": "M104",
+    "messier": "M104",
+    "ra": "12 39 59.4318",
+    "dec": "-11 37 22.996",
+    "v_mag": "8.0",
     "bestViewTimes": "spring",
     "magnitude": 8,
     "names": ["NGC 4594", "Sombrero Galaxy"],
     "difficultyLevel": "Easy",
     "type": "Spiral galaxy"
 }, {
-    "object": "M105",
+    "messier": "M105",
+    "ra": "10 47 49.600",
+    "dec": "+12 34 53.87",
+    "v_mag": "9.76",
     "bestViewTimes": "spring",
     "magnitude": 9.3,
     "names": ["NGC 3379"],
@@ -1208,7 +1521,10 @@
     "filter": "none",
     "date": "2026/04/02"
 }, {
-    "object": "M106",
+    "messier": "M106",
+    "ra": "12 18 57.620",
+    "dec": "+47 18 13.39",
+    "v_mag": "8.41",
     "bestViewTimes": "winter",
     "magnitude": 8.4,
     "names": ["NGC 4258"],
@@ -1221,30 +1537,42 @@
     "gain": 101,
     "offset": 10,
     "filter": "zwo ir cut",
-    "date":  "2026/03/11"
+    "date": "2026/03/11"
 }, {
-    "object": "M107",
+    "messier": "M107",
+    "ra": "16 32 31.86",
+    "dec": "-13 03 13.6",
+    "v_mag": "--",
     "bestViewTimes": "summer",
     "magnitude": 7.9,
     "names": ["NGC 6171", "Crucifix Cluster"],
     "difficultyLevel": "Hard",
     "type": "Globular cluster"
 }, {
-    "object": "M108",
+    "messier": "M108",
+    "ra": "11 11 30.967",
+    "dec": "+55 40 26.84",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 10,
     "names": ["NGC 3556", "Surfboard Galaxy"],
     "difficultyLevel": "Hard",
     "type": "Barred Spiral galaxy"
 }, {
-    "object": "M109",
+    "messier": "M109",
+    "ra": "11 57 35.9631",
+    "dec": "+53 22 29.006",
+    "v_mag": "--",
     "bestViewTimes": "spring",
     "magnitude": 9.8,
     "names": ["NGC 3992", "Vacuum Cleaner Galaxy"],
     "difficultyLevel": "Hard",
     "type": "Barred Spiral galaxy"
 }, {
-    "object": "M110",
+    "messier": "M110",
+    "ra": "00 40 22.0572",
+    "dec": "+41 41 07.507",
+    "v_mag": "8.07",
     "bestViewTimes": "autumn",
     "magnitude": 8.5,
     "names": ["NGC 205", "Andromeda Satellite #2"],
@@ -1257,5 +1585,5 @@
     "gain": 101,
     "offset": 10,
     "filter": "none",
-    "date":  "2025/10/16"
+    "date": "2025/10/16"
 }]

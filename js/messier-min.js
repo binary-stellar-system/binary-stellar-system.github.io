@@ -81,7 +81,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 cell.className = group[i].bestViewTimes;
                 cell.dataset.type = group[i].type;
                 cell.dataset.names = group[i].names.join(' / ');
-                cell.dataset.messier = group[i].object;
+                cell.dataset.messier = group[i].messier;
                 cell.dataset.level = group[i].difficultyLevel;
                 if (group[i].image) {
                     cell.dataset.image = group[i].image;
