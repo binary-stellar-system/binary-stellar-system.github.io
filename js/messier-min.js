@@ -126,7 +126,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const image = document.getElementById('messier-object-image');
         if (image) {
             if (dset.image) {
-                const objectData = window.messierData.find(item => item.object === objectName);
+                const objectData = window.messierData.find(item => item.messier === objectName);
                 let results = '';
                 if (objectData) {
                     results = `<div class="overlay">Object: ${objectName}
