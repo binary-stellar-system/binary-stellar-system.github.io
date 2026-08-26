@@ -130,6 +130,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 let results = '';
                 if (objectData) {
                     results = `<div class="overlay">Object: ${objectName}
+                        <br>RA/Dec: ${objectData.ra}/${objectData.dec}
                         <br>Scope: ${objectData.scope}
                         <br>Camera: ${objectData.camera}
                         <br>Gain/Offset: ${objectData.gain}/${objectData.offset}
