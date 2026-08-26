@@ -86,9 +86,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (group[i].image) {
                     cell.dataset.image = group[i].image;
                     const img = `<img src="/images/viewimage.png"/>`;
-                    cell.innerHTML = group[i].object + '<br>' + group[i].magnitude + img;
+                    cell.innerHTML = group[i].messier + '<br>' + group[i].magnitude + img;
                 } else {
-                    cell.innerHTML = group[i].object + '<br>' + group[i].magnitude;
+                    cell.innerHTML = group[i].messier + '<br>' + group[i].magnitude;
                 }
 
                 col++;
