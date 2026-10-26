@@ -556,14 +556,14 @@
     "names": ["NGC 7092"],
     "difficultyLevel": "Easy",
     "type": "Open cluster",
-    "image": "m39_2024_08_16_ai_redone_cropped_scaled.png",
+    "image": "m39_2026_10_24_pi_stacked_bg_merged_siril_stacked_stars_cropped.png",
     "scope": "Astro Tech AT60ED + AT60FF",
-    "lights": "210 @ 10 seconds",
-    "camera": "ZWO ASI178mc",
-    "gain": 50,
-    "offset": 80,
-    "filter": "none",
-    "date": "2024/08/16"
+    "lights": "260 @ 30 seconds",
+    "camera": "ZWO ASI533mc pro",
+    "gain": 101,
+    "offset": 10,
+    "filter": "ZWO IR Cut",
+    "date": "2026/10/24"
 }, {
     "messier": "M40",
     "ra": "12 22.2",
